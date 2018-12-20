@@ -2,16 +2,14 @@
 //  WeekOutlineTableViewController.swift
 //  MBSR-App
 //
-//  Created by Benjamin Hakes on 12/19/18.
+//  Created by Benjamin Hakes on 12/20/18.
 //  Copyright © 2018 Benjamin Hakes. All rights reserved.
 //
 
 import UIKit
 
-class WeekOutlineTableViewController: UITableViewController {
+class WeekOutlineTableViewController: UITableView {
 
-    var week: WeekOfContent?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,13 +32,15 @@ class WeekOutlineTableViewController: UITableViewController {
         return 1
     }
 
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "weekOutlineCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
 
         return cell
     }
+    */
 
     /*
     // Override to support conditional editing of the table view.
