@@ -2,15 +2,34 @@
 //  WeekOutlineTableViewController.swift
 //  MBSR-App
 //
-//  Created by Benjamin Hakes on 12/19/18.
+//  Created by Benjamin Hakes on 12/20/18.
 //  Copyright © 2018 Benjamin Hakes. All rights reserved.
 //
 
 import UIKit
+import Foundation
+
 
 class WeekOutlineTableViewController: UITableViewController {
 
-    var week: WeekOfContent?
+    var weekNumber: Int = 0
+    
+    // Get JSON Data
+    
+    
+    
+    
+//    if let path = Bundle.main.path(forResource: "data", ofType: "json") {
+//        do {
+//            let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+//            let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+//            if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let person = jsonResult["person"] as? [Any] {
+//                // do stuff
+//            }
+//        } catch {
+//            // handle error
+//        }
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +54,7 @@ class WeekOutlineTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "weekOutlineCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "outlineCell", for: indexPath)
 
         // Configure the cell...
 

@@ -73,34 +73,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eAg-R8-88b" customClass="WeekOutlineTableView" customModule="MBSR_App" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="204" width="375" height="414"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hax-8Z-SXd">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hax-8Z-SXd" id="qqa-z4-K3g">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXw-bl-Pm5">
+                                <rect key="frame" x="160" y="318.5" width="55" height="30"/>
+                                <state key="normal" title="Content"/>
+                                <connections>
+                                    <segue destination="hjX-qG-bUS" kind="show" identifier="weekOutlineSegue" id="Wm1-f7-fOT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="eAg-R8-88b" firstAttribute="trailing" secondItem="o5b-ce-LST" secondAttribute="trailing" id="F3L-29-Srq"/>
-                            <constraint firstItem="eAg-R8-88b" firstAttribute="top" secondItem="o5b-ce-LST" secondAttribute="top" constant="140" id="aPZ-dM-Ev1"/>
-                            <constraint firstItem="eAg-R8-88b" firstAttribute="bottom" secondItem="o5b-ce-LST" secondAttribute="bottom" id="h59-hZ-F9m"/>
-                            <constraint firstItem="eAg-R8-88b" firstAttribute="leading" secondItem="o5b-ce-LST" secondAttribute="leading" id="r9O-Ls-7aK"/>
+                            <constraint firstItem="CXw-bl-Pm5" firstAttribute="centerX" secondItem="cNg-A9-ZE1" secondAttribute="centerX" id="3gE-Q3-v0U"/>
+                            <constraint firstItem="CXw-bl-Pm5" firstAttribute="centerY" secondItem="cNg-A9-ZE1" secondAttribute="centerY" id="jVi-Jz-Qx5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="o5b-ce-LST"/>
                     </view>
+                    <connections>
+                        <outlet property="contentButton" destination="CXw-bl-Pm5" id="Qae-LV-jRJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8J-Dv-cCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1597.5999999999999" y="1625.0374812593705"/>
+        </scene>
+        <!--Week Outline Table View Controller-->
+        <scene sceneID="AJw-AN-rjc">
+            <objects>
+                <tableViewController id="hjX-qG-bUS" customClass="WeekOutlineTableViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="N4M-UE-QXW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="outlineCell" id="DXb-0J-ztP">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DXb-0J-ztP" id="A4J-3Q-gyh">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hjX-qG-bUS" id="ysg-EM-K4D"/>
+                            <outlet property="delegate" destination="hjX-qG-bUS" id="Z5X-ed-YGb"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3gN-8j-IZt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1598" y="2326"/>
         </scene>
         <!--Week-->
         <scene sceneID="ARB-iW-Kmm">

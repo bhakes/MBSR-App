@@ -11,6 +11,7 @@ import Foundation
 struct Content: Codable {
     let weeks: [WeekOfContent]
     let number: Int
+    
 }
 
 struct WeekOfContent: Codable {
@@ -46,3 +47,7 @@ struct Article: Codable {
     let url: String
     
 }
+
+
+
+

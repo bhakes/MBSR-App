@@ -14,6 +14,8 @@ class WeekOutlineTableView: UITableView {
         <#code#>
     }
     
+    override let numberOfSections = 3
+    
     override func numberOfRows(inSection section: Int) -> Int {
         <#code#>
     }

@@ -10,6 +10,7 @@ import UIKit
 
 class WeekDetailViewController: UIViewController {
 
+    @IBOutlet weak var contentButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 

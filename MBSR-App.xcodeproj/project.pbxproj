@@ -17,8 +17,9 @@
 		D178E8C121CAF1020060B038 /* WeekTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D178E8C021CAF1020060B038 /* WeekTableViewController.swift */; };
 		D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D178E8C221CAF2990060B038 /* WeekTableViewCell.swift */; };
 		D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D178E8C421CAF4890060B038 /* WeekDetailViewController.swift */; };
-		D178E8C721CAF75C0060B038 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = D178E8C621CAF75C0060B038 /* Data.json */; };
-		D178E8C921CAFB590060B038 /* WeekOutlineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D178E8C821CAFB590060B038 /* WeekOutlineTableViewController.swift */; };
+		D178E8C721CAF75C0060B038 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D178E8C621CAF75C0060B038 /* data.json */; };
+		D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A874D921CF280900434BEB /* MSBRContent.swift */; };
+		D1DD1CF621CC51FF0070BF9A /* WeekOutlineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD1CF521CC51FF0070BF9A /* WeekOutlineTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +35,9 @@
 		D178E8C021CAF1020060B038 /* WeekTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewController.swift; sourceTree = "<group>"; };
 		D178E8C221CAF2990060B038 /* WeekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewCell.swift; sourceTree = "<group>"; };
 		D178E8C421CAF4890060B038 /* WeekDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDetailViewController.swift; sourceTree = "<group>"; };
-		D178E8C621CAF75C0060B038 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
-		D178E8C821CAFB590060B038 /* WeekOutlineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewController.swift; sourceTree = "<group>"; };
+		D178E8C621CAF75C0060B038 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		D1A874D921CF280900434BEB /* MSBRContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSBRContent.swift; sourceTree = "<group>"; };
+		D1DD1CF521CC51FF0070BF9A /* WeekOutlineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,7 @@
 				D178E8C021CAF1020060B038 /* WeekTableViewController.swift */,
 				D178E8C221CAF2990060B038 /* WeekTableViewCell.swift */,
 				D178E8C421CAF4890060B038 /* WeekDetailViewController.swift */,
-				D178E8C821CAFB590060B038 /* WeekOutlineTableViewController.swift */,
+				D1DD1CF521CC51FF0070BF9A /* WeekOutlineTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -64,8 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				D13F64BD21C6B3E8000029E9 /* CoreData.swift */,
-				D178E8C621CAF75C0060B038 /* Data.json */,
+				D178E8C621CAF75C0060B038 /* data.json */,
 				D13D594F21CAE9B7004FBEC1 /* MBSR.swift */,
+				D1A874D921CF280900434BEB /* MSBRContent.swift */,
 				D13F64AC21C5A027000029E9 /* MBSR-Model.xcdatamodeld */,
 			);
 			path = Model;
@@ -170,7 +173,7 @@
 				D13F64B321C5A028000029E9 /* LaunchScreen.storyboard in Resources */,
 				D13F64B021C5A028000029E9 /* Assets.xcassets in Resources */,
 				D13F64AB21C5A027000029E9 /* Main.storyboard in Resources */,
-				D178E8C721CAF75C0060B038 /* Data.json in Resources */,
+				D178E8C721CAF75C0060B038 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,9 +186,10 @@
 			files = (
 				D13F64AE21C5A027000029E9 /* MBSR-Model.xcdatamodeld in Sources */,
 				D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */,
-				D178E8C921CAFB590060B038 /* WeekOutlineTableViewController.swift in Sources */,
+				D1DD1CF621CC51FF0070BF9A /* WeekOutlineTableViewController.swift in Sources */,
 				D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */,
 				D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */,
+				D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */,
 				D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */,
 				D13F64BE21C6B3E8000029E9 /* CoreData.swift in Sources */,
 				D178E8C121CAF1020060B038 /* WeekTableViewController.swift in Sources */,
