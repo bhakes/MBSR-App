@@ -34,6 +34,7 @@ class WeekTableViewController: UITableViewController {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "weekCell", for: indexPath) as? WeekTableViewCell else {fatalError("unable to dequeue cell")}
 
         cell.textLabel?.text = "Week \(String(indexPath.row + 1))"
+        
         // Configure the cell...
 
         return cell
@@ -84,6 +85,7 @@ class WeekTableViewController: UITableViewController {
         guard let destVC = segue.destination as? WeekDetailViewController else { return }
         
         destVC.title = "Week \(String(indexPath.row + 1))"
+        destVC.weekNumber = indexPath.row + 1
         
     }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */; };
 		D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D594F21CAE9B7004FBEC1 /* MBSR.swift */; };
 		D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F64A521C5A027000029E9 /* AppDelegate.swift */; };
 		D13F64AB21C5A027000029E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13F64A921C5A027000029E9 /* Main.storyboard */; };
@@ -19,10 +20,12 @@
 		D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D178E8C421CAF4890060B038 /* WeekDetailViewController.swift */; };
 		D178E8C721CAF75C0060B038 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D178E8C621CAF75C0060B038 /* data.json */; };
 		D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A874D921CF280900434BEB /* MSBRContent.swift */; };
-		D1DD1CF621CC51FF0070BF9A /* WeekOutlineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DD1CF521CC51FF0070BF9A /* WeekOutlineTableViewController.swift */; };
+		D1A874DC21CF422000434BEB /* WeekOutlineTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A874DB21CF422000434BEB /* WeekOutlineTableView.swift */; };
+		D1A874DE21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A874DD21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewCell.swift; sourceTree = "<group>"; };
 		D13D594F21CAE9B7004FBEC1 /* MBSR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSR.swift; sourceTree = "<group>"; };
 		D13F64A221C5A027000029E9 /* MBSR-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBSR-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13F64A521C5A027000029E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +40,8 @@
 		D178E8C421CAF4890060B038 /* WeekDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDetailViewController.swift; sourceTree = "<group>"; };
 		D178E8C621CAF75C0060B038 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		D1A874D921CF280900434BEB /* MSBRContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSBRContent.swift; sourceTree = "<group>"; };
-		D1DD1CF521CC51FF0070BF9A /* WeekOutlineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewController.swift; sourceTree = "<group>"; };
+		D1A874DB21CF422000434BEB /* WeekOutlineTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableView.swift; sourceTree = "<group>"; };
+		D1A874DD21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,8 @@
 				D178E8C021CAF1020060B038 /* WeekTableViewController.swift */,
 				D178E8C221CAF2990060B038 /* WeekTableViewCell.swift */,
 				D178E8C421CAF4890060B038 /* WeekDetailViewController.swift */,
-				D1DD1CF521CC51FF0070BF9A /* WeekOutlineTableViewController.swift */,
+				D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */,
+				D1A874DB21CF422000434BEB /* WeekOutlineTableView.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				D13F64A521C5A027000029E9 /* AppDelegate.swift */,
+				D1A874DD21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift */,
 				D13D594D21CADFF4004FBEC1 /* Model */,
 				D13D594C21CADFE5004FBEC1 /* View Controllers */,
 				D13D594E21CAE028004FBEC1 /* Resources */,
@@ -184,15 +190,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A874DE21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift in Sources */,
 				D13F64AE21C5A027000029E9 /* MBSR-Model.xcdatamodeld in Sources */,
 				D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */,
-				D1DD1CF621CC51FF0070BF9A /* WeekOutlineTableViewController.swift in Sources */,
 				D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */,
 				D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */,
 				D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */,
+				D1A874DC21CF422000434BEB /* WeekOutlineTableView.swift in Sources */,
 				D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */,
 				D13F64BE21C6B3E8000029E9 /* CoreData.swift in Sources */,
 				D178E8C121CAF1020060B038 /* WeekTableViewController.swift in Sources */,
+				D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
