@@ -61,8 +61,8 @@
 				D178E8C021CAF1020060B038 /* WeekTableViewController.swift */,
 				D178E8C221CAF2990060B038 /* WeekTableViewCell.swift */,
 				D178E8C421CAF4890060B038 /* WeekDetailViewController.swift */,
-				D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */,
 				D1A874DB21CF422000434BEB /* WeekOutlineTableView.swift */,
+				D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";

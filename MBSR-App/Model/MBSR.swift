@@ -27,7 +27,8 @@ struct Video: Codable {
     let length: Int
     let publisher: String
     let url: String
-    
+    let type: String
+    let viewed: Int
 }
 
 struct Reading: Codable {
@@ -36,6 +37,8 @@ struct Reading: Codable {
     let author: String
     let estimatedReadingTime: Int
     let url: String
+    let type: String
+    let viewed: Int
     
 }
 
@@ -45,7 +48,8 @@ struct Article: Codable {
     let author: String
     let estimatedReadingTime: Int
     let url: String
-    
+    let type: String
+    let viewed: Int
 }
 
 

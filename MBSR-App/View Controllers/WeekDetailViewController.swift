@@ -15,6 +15,10 @@ class WeekDetailViewController: UIViewController, UITableViewDelegate, UITableVi
     @IBOutlet weak var weekOutlineTableView: WeekOutlineTableView!
     var weekNumber: Int?
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        weekOutlineTableView.reloadData()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         weekOutlineTableView.dataSource = self
@@ -59,22 +63,51 @@ class WeekDetailViewController: UIViewController, UITableViewDelegate, UITableVi
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "weekOutlineCell", for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "weekOutlineCell", for: indexPath) as? WeekOutlineTableViewCell else {fatalError("Couldn't dequeue cell as WeekOutlineTableViewCell")}
         
     
         guard let weekNumber = weekNumber else {fatalError("couldn't get week number of rows 1")}
         guard let content2 = MSBRContent.shared.content["\(weekNumber)"] else {fatalError("couldn't get week number of rows 2")}
         let content = content2[indexPath.section]
         
-        cell.textLabel?.text =
+        cell.title?.text =
             content[indexPath.row]["title"] as? String
+        
+        cell.type =
+            content[indexPath.row]["type"] as? String
+        cell.viewedStatus = content[indexPath.row]["viewed"] as? Int
 
-        if let detailText = content[indexPath.row]["length"] {
-            cell.detailTextLabel?.text = "\(detailText) mins"
-        } else if let detailText = content[indexPath.row]["estimatedReadingTime"]{
-            cell.detailTextLabel?.text = "~\(detailText) mins"
+        if let type = cell.type {
+            
+            switch type{
+            case "article":
+                cell.contentIcon.image = UIImage(named: "document")
+                cell.contentIcon.image = cell.contentIcon.image!.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
+                cell.contentIcon.tintColor = UIColor.purple
+            case "book":
+                cell.contentIcon.image = UIImage(named: "book")
+                cell.contentIcon.image = cell.contentIcon.image!.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
+                cell.contentIcon.tintColor = UIColor.purple
+            default:
+                break
+            }
+            
+        } else {fatalError("Could not get type")}
+            
+        if cell.viewedStatus == 1 {
+            cell.checkedIcon.image = cell.checkedIcon.image!.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
+            cell.checkedIcon.tintColor = UIColor.green
         } else {
-            cell.detailTextLabel?.text = ""
+            cell.checkedIcon.image = cell.checkedIcon.image!.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
+            cell.checkedIcon.tintColor = UIColor.clear
+        }
+
+        if let detail = content[indexPath.row]["length"] {
+            cell.detail?.text = "\(detail) mins"
+        } else if let detail = content[indexPath.row]["estimatedReadingTime"]{
+            cell.detail.text = "~\(detail) mins"
+        } else {
+            cell.detail.text = ""
         }
 
         // Configure the cell...
@@ -85,8 +118,10 @@ class WeekDetailViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
         
         guard let weekNumber = weekNumber else {fatalError("couldn't get week number of rows 1")}
-        guard let content2 = MSBRContent.shared.content["\(weekNumber)"] else {fatalError("couldn't get week number of rows 2")}
-        let content = content2[indexPath.section]
+        guard var content2 = MSBRContent.shared.content["\(weekNumber)"] else {fatalError("couldn't get week number of rows 2")}
+        var content = content2[indexPath.section]
+        
+        MSBRContent.shared.updateViewStatus(week: String(weekNumber), section: indexPath.section, row: indexPath.row)
         
         guard let strURlToOpen = content[indexPath.row]["url"] as? String else { return }
         guard let url = URL(string: strURlToOpen) else { return }
