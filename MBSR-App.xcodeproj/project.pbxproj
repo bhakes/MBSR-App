@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883CA21DD6C370044F164 /* TabBarController.swift */; };
+		96A883CE21DD6F7D0044F164 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883CD21DD6F7D0044F164 /* UIImage.swift */; };
 		D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */; };
 		D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */; };
 		D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D594F21CAE9B7004FBEC1 /* MBSR.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96A883CA21DD6C370044F164 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		96A883CD21DD6F7D0044F164 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewCell.swift; sourceTree = "<group>"; };
 		D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesCollectionViewController.swift; sourceTree = "<group>"; };
 		D13D594F21CAE9B7004FBEC1 /* MBSR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSR.swift; sourceTree = "<group>"; };
@@ -57,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96A883CC21DD6F5C0044F164 /* Extensions+Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				96A883CD21DD6F7D0044F164 /* UIImage.swift */,
+			);
+			path = "Extensions+Utilities";
+			sourceTree = "<group>";
+		};
 		D13D594C21CADFE5004FBEC1 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +78,7 @@
 				D1A874DB21CF422000434BEB /* WeekOutlineTableView.swift */,
 				D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */,
 				D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */,
+				96A883CA21DD6C370044F164 /* TabBarController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -85,7 +98,6 @@
 		D13D594E21CAE028004FBEC1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D13F64A921C5A027000029E9 /* Main.storyboard */,
 				D13F64B121C5A028000029E9 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
@@ -112,8 +124,10 @@
 			children = (
 				D13F64A521C5A027000029E9 /* AppDelegate.swift */,
 				D1A874DD21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift */,
+				D13F64A921C5A027000029E9 /* Main.storyboard */,
 				D13D594D21CADFF4004FBEC1 /* Model */,
 				D13D594C21CADFE5004FBEC1 /* View Controllers */,
+				96A883CC21DD6F5C0044F164 /* Extensions+Utilities */,
 				D13D594E21CAE028004FBEC1 /* Resources */,
 				D13F64AF21C5A028000029E9 /* Assets.xcassets */,
 				D13F64B421C5A028000029E9 /* Info.plist */,
@@ -194,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1A874DE21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift in Sources */,
+				96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */,
 				D13F64AE21C5A027000029E9 /* MBSR-Model.xcdatamodeld in Sources */,
 				D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */,
 				D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */,
@@ -205,6 +220,7 @@
 				D13F64BE21C6B3E8000029E9 /* CoreData.swift in Sources */,
 				D178E8C121CAF1020060B038 /* WeekTableViewController.swift in Sources */,
 				D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */,
+				96A883CE21DD6F7D0044F164 /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
