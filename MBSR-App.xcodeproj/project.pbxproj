@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */; };
+		D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */; };
 		D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D594F21CAE9B7004FBEC1 /* MBSR.swift */; };
 		D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F64A521C5A027000029E9 /* AppDelegate.swift */; };
 		D13F64AB21C5A027000029E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13F64A921C5A027000029E9 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewCell.swift; sourceTree = "<group>"; };
+		D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesCollectionViewController.swift; sourceTree = "<group>"; };
 		D13D594F21CAE9B7004FBEC1 /* MBSR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSR.swift; sourceTree = "<group>"; };
 		D13F64A221C5A027000029E9 /* MBSR-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBSR-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13F64A521C5A027000029E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				D178E8C421CAF4890060B038 /* WeekDetailViewController.swift */,
 				D1A874DB21CF422000434BEB /* WeekOutlineTableView.swift */,
 				D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */,
+				D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */,
 				D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */,
 				D1A874DC21CF422000434BEB /* WeekOutlineTableView.swift in Sources */,
+				D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */,
 				D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */,
 				D13F64BE21C6B3E8000029E9 /* CoreData.swift in Sources */,
 				D178E8C121CAF1020060B038 /* WeekTableViewController.swift in Sources */,

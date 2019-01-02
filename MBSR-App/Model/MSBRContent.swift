@@ -58,6 +58,49 @@ class MSBRContent {
         ],
     ]
     
+    var practices = [
+        [
+            "title": "Raisin Meditation",
+            "length": 12,
+            "publisher": "Dave Potter",
+            "url": "https://www.youtube.com/watch?v=_CZEEYMXr8Q&index=4&list=PLbiVpU59JkVbNfFyAG4SrC8NGnC0-D4jg",
+            "type" : "video",
+            "viewed": 0
+        ],
+        [
+            "title": "The Body Scan Meditation",
+            "estimatedReadingTime": 13,
+            "author": "Jon Kabat-Zinn",
+            "url": "https://palousemindfulness.com/docs/bodyscan.pdf",
+            "type" : "article",
+            "viewed": 0
+        ],
+        [
+            "title": "Sitting Meditation",
+            "estimatedReadingTime": 13,
+            "author": "Jon Kabat-Zinn",
+            "url": "https://palousemindfulness.com/docs/sittingmeditation.pdf",
+            "type" : "article",
+            "viewed": 0
+        ],
+        [
+            "title": "Midful Yoga 1",
+            "length": 37,
+            "publisher": "Lynn Rossy",
+            "url": "https://www.youtube.com/watch?v=Teo0f1ab1PY&index=3&list=PLbiVpU59JkVaFMGi0A8Im_hfSh-SWsFwg",
+            "type" : "video",
+            "viewed": 0
+        ],
+        [
+            "title": "Midful Yoga 2",
+            "length": 36,
+            "publisher": "Lynn Rossy",
+            "url": "https://www.youtube.com/watch?v=gmdUOia58rY&index=4&list=PLbiVpU59JkVaFMGi0A8Im_hfSh-SWsFwg",
+            "type" : "video",
+            "viewed": 0
+        ]
+        ]
+    
     var content =
         [ "1" :
         [
