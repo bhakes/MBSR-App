@@ -338,11 +338,11 @@
             </objects>
             <point key="canvasLocation" x="2238" y="-910"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="LsY-BN-L8g">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cNO-dL-9hc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="user_male" id="Q32-4b-Tzk"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="user_male" id="Q32-4b-Tzk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M2n-Yn-zaL">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -367,4 +367,5 @@
         <image name="settings" width="30" height="30"/>
         <image name="user_male" width="30" height="30"/>
     </resources>
+    <color key="tintColor" red="0.55412418019555287" green="0.43794370743108729" blue="0.76022101683937826" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
