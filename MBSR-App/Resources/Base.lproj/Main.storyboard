@@ -299,11 +299,11 @@
             </objects>
             <point key="canvasLocation" x="4817" y="943"/>
         </scene>
-        <!--Resources-->
+        <!--Journal-->
         <scene sceneID="BXq-oC-lRD">
             <objects>
                 <navigationController id="Byp-Xp-2D4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Resources" image="layers" id="n3s-46-jPX"/>
+                    <tabBarItem key="tabBarItem" title="Journal" image="ball_point_pen" id="n3s-46-jPX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OVz-8k-MOz">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -344,11 +344,11 @@
             </objects>
             <point key="canvasLocation" x="2238" y="-910"/>
         </scene>
-        <!--Profile-->
+        <!--Resources-->
         <scene sceneID="LsY-BN-L8g">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cNO-dL-9hc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" image="user_male" id="Q32-4b-Tzk"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="product" id="Q32-4b-Tzk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M2n-Yn-zaL">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -365,13 +365,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ball_point_pen" width="30" height="30"/>
         <image name="checked" width="30" height="30"/>
         <image name="circled_play" width="30" height="30"/>
         <image name="home" width="30" height="30"/>
-        <image name="layers" width="30" height="30"/>
         <image name="list" width="30" height="30"/>
+        <image name="product" width="30" height="30"/>
         <image name="settings" width="30" height="30"/>
-        <image name="user_male" width="30" height="30"/>
     </resources>
     <color key="tintColor" red="0.55412418019555287" green="0.43794370743108729" blue="0.76022101683937826" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
