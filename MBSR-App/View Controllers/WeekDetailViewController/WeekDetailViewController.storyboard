@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uhE-8m-lu0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="D4r-Wy-iwp">
+            <objects>
+                <viewController id="uhE-8m-lu0" customClass="WeekDetailViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2HK-ak-Y55">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RhL-HT-xzw">
+                                <rect key="frame" x="0.0" y="260" width="375" height="407"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KHX-3p-P3x" customClass="WeekOutlineTableView" customModule="MBSR_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="407"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="weekOutlineCell" id="RqO-zk-7Rs" customClass="WeekOutlineTableViewCell" customModule="MBSR_App" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RqO-zk-7Rs" id="q55-3t-qfV">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circled_play" translatesAutoresizingMaskIntoConstraints="NO" id="Nge-qH-lrQ">
+                                                            <rect key="frame" x="8" y="8" width="30" height="30"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="30" id="gxE-SM-Upb"/>
+                                                                <constraint firstAttribute="height" constant="30" id="rm1-gr-Stw"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="mRH-zS-CEC">
+                                                            <rect key="frame" x="50" y="4.5" width="317" height="34.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMr-ZD-Vgm">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="317" height="20.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Detail" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUy-1E-qIU">
+                                                                    <rect key="frame" x="0.0" y="22.5" width="317" height="12"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked" translatesAutoresizingMaskIntoConstraints="NO" id="7Ho-pX-QDo">
+                                                            <rect key="frame" x="23" y="4" width="20" height="17"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="Nge-qH-lrQ" firstAttribute="leading" secondItem="q55-3t-qfV" secondAttribute="leading" constant="8" id="0gi-wn-yLG"/>
+                                                        <constraint firstItem="mRH-zS-CEC" firstAttribute="centerY" secondItem="q55-3t-qfV" secondAttribute="centerY" id="1z5-1f-Jkt"/>
+                                                        <constraint firstAttribute="trailing" secondItem="mRH-zS-CEC" secondAttribute="trailing" constant="8" id="dD2-oC-phn"/>
+                                                        <constraint firstItem="mRH-zS-CEC" firstAttribute="leading" secondItem="Nge-qH-lrQ" secondAttribute="trailing" constant="12" id="raG-P2-YiD"/>
+                                                        <constraint firstItem="Nge-qH-lrQ" firstAttribute="top" secondItem="q55-3t-qfV" secondAttribute="top" constant="8" id="wwe-46-4d9"/>
+                                                    </constraints>
+                                                </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="checkedIcon" destination="7Ho-pX-QDo" id="PVv-gH-wOf"/>
+                                                    <outlet property="contentIcon" destination="Nge-qH-lrQ" id="E18-5b-WR3"/>
+                                                    <outlet property="detail" destination="TUy-1E-qIU" id="DZ7-oQ-zUJ"/>
+                                                    <outlet property="title" destination="bMr-ZD-Vgm" id="kCY-MQ-uWL"/>
+                                                </connections>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="delegate" destination="uhE-8m-lu0" id="j8e-Xj-HSV"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="KHX-3p-P3x" secondAttribute="bottom" id="CXI-fj-h0e"/>
+                                    <constraint firstItem="KHX-3p-P3x" firstAttribute="leading" secondItem="RhL-HT-xzw" secondAttribute="leading" id="HNr-H2-wbx"/>
+                                    <constraint firstAttribute="trailing" secondItem="KHX-3p-P3x" secondAttribute="trailing" id="dIH-cc-MjQ"/>
+                                    <constraint firstItem="KHX-3p-P3x" firstAttribute="top" secondItem="RhL-HT-xzw" secondAttribute="top" id="ghj-56-V43"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VsR-OO-Yv0" firstAttribute="trailing" secondItem="RhL-HT-xzw" secondAttribute="trailing" id="6Xw-eU-0Pt"/>
+                            <constraint firstItem="RhL-HT-xzw" firstAttribute="top" secondItem="VsR-OO-Yv0" secondAttribute="top" constant="240" id="7uR-dl-wUG"/>
+                            <constraint firstItem="RhL-HT-xzw" firstAttribute="leading" secondItem="VsR-OO-Yv0" secondAttribute="leading" id="MWJ-ig-jiH"/>
+                            <constraint firstItem="VsR-OO-Yv0" firstAttribute="bottom" secondItem="RhL-HT-xzw" secondAttribute="bottom" id="kNd-mg-vg4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VsR-OO-Yv0"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="V6r-Ov-TbU"/>
+                    <connections>
+                        <outlet property="weekOutlineTableView" destination="KHX-3p-P3x" id="tpi-gv-7YC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kKo-Yb-JYX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1597.5999999999999" y="1603.4482758620691"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="checked" width="30" height="30"/>
+        <image name="circled_play" width="30" height="30"/>
+    </resources>
+</document>
