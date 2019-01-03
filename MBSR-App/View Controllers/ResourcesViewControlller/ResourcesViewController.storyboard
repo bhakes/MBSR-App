@@ -21,7 +21,9 @@
                         <viewLayoutGuide key="safeArea" id="g7K-hC-M75"/>
                     </view>
                     <navigationItem key="navigationItem" title="Resources" largeTitleDisplayMode="always" id="HU2-55-LWK">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="settings" id="nCJ-p2-UOt"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="Settings" id="nCJ-p2-UOt">
+                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="-6" maxY="0.0"/>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                 </viewController>
@@ -39,6 +41,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="settings" width="30" height="30"/>
+        <image name="Settings" width="38" height="32"/>
     </resources>
 </document>

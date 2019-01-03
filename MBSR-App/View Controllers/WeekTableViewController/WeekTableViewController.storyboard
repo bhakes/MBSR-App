@@ -9,12 +9,12 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Weeks-->
+        <!--Week-->
         <scene sceneID="TNR-TI-jvw">
             <objects>
                 <tableViewController storyboardIdentifier="WeekTableViewControllerSB" id="JdT-sQ-9xZ" customClass="WeekTableViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Fi3-N8-6b2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
@@ -44,7 +44,8 @@
                             <outlet property="delegate" destination="JdT-sQ-9xZ" id="WXO-T8-gvq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Weeks" id="f0P-1r-Ifj"/>
+                    <navigationItem key="navigationItem" title="Week" id="f0P-1r-Ifj"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="220-K2-pqq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

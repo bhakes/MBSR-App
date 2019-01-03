@@ -14,7 +14,7 @@
             <objects>
                 <collectionViewController storyboardIdentifier="PracticesCollectionViewControllerSB" id="zON-NF-dA9" customClass="PracticesCollectionViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="mdv-AF-Cm3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="unI-yu-e1r">
@@ -39,6 +39,7 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" title="Practices" id="umO-lv-vV6"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rk0-8h-UNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

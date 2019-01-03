@@ -23,7 +23,7 @@ class NavigationController: UINavigationController {
         navigationBar.backgroundColor = UIColor.white
         
         navigationBar.layer.shadowRadius = 12
-        navigationBar.layer.shadowOpacity = 0.15
+        navigationBar.layer.shadowOpacity = 0.2
     }
     
 }

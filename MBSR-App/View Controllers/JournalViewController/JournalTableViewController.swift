@@ -42,7 +42,8 @@ class JournalTableViewController: UITableViewController {
 
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "journalCell", for: indexPath) as? JournalTableViewCell else {fatalError("could not dequeue Journal cell")}
+//        guard let cell = tableView.dequeueReusableCell(withIdentifier: "journalCell", for: indexPath) as? JournalTableViewCell else {fatalError("could not dequeue Journal cell")}
+        let cell = UITableViewCell()
         
         if indexPath.section == 0 {
             cell.textLabel?.text = "Weeks 1-7 - Formal Practice Log"
