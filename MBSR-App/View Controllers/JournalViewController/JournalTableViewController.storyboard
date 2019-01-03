@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="journalCell" textLabel="AbD-pO-QlV" style="IBUITableViewCellStyleDefault" id="PF1-CD-I3t" customClass="JournalTableViewCell" customModule="MBSR_App" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="journalCell" textLabel="AbD-pO-QlV" style="IBUITableViewCellStyleDefault" id="PF1-CD-I3t" customClass="JournalTableViewCell" customModule="MBSR_App" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PF1-CD-I3t" id="O72-cy-05p">
@@ -34,9 +34,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="HzX-ed-SAt" kind="show" id="5qg-dr-Qk0"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -46,6 +43,9 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Journal" id="xGg-Ij-cn2"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <segue destination="HzX-ed-SAt" kind="show" identifier="ShowJournalDetail" id="Kzd-8Y-LJs"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h88-ck-N4n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -57,7 +57,7 @@
                 <viewControllerPlaceholder storyboardName="JournalDetailViewController" referencedIdentifier="JournalDetailViewControllerSB" id="HzX-ed-SAt" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ssb-Za-vPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3607" y="794"/>
+            <point key="canvasLocation" x="3656" y="910"/>
         </scene>
     </scenes>
 </document>

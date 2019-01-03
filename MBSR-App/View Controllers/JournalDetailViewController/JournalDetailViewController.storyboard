@@ -56,7 +56,7 @@
                 <viewControllerPlaceholder storyboardName="JournalEntryViewController" referencedIdentifier="JournalEntryViewControllerSB" id="6ve-Jn-lou" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9W-T8-QRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="759" y="157"/>
+            <point key="canvasLocation" x="905" y="194"/>
         </scene>
     </scenes>
 </document>

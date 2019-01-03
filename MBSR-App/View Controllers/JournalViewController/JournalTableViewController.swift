@@ -63,6 +63,17 @@ class JournalTableViewController: UITableViewController {
             return "Informal"
         }
     }
+    
+    // ADDED THIS METHOD TO RUN WHEN CELL IS SELECTED
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // deselect row
+        tableView.deselectRow(at: indexPath, animated: true)
+        // removed segue in storyboard from cell and created new segue from this VC to detail VC
+        // named new segue "ShowJournalDetails" in the storyboard
+        // perform segue with identifier
+        performSegue(withIdentifier: "ShowJournalDetail", sender: self)
+        // then the below code runs
+    }
 
     
     // MARK: - Navigation
