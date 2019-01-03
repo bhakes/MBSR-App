@@ -42,6 +42,17 @@
 		D1A8A49321DD7B1400161B7A /* ResourcesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8A49221DD7B1400161B7A /* ResourcesViewController.storyboard */; };
 		D1A8A49621DD7BFD00161B7A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A8A49521DD7BFD00161B7A /* SettingsViewController.swift */; };
 		D1A8A49821DD7C1000161B7A /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8A49721DD7C1000161B7A /* SettingsViewController.storyboard */; };
+		EBDFE3FE21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE3FD21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift */; };
+		EBDFE40021DEA49F00A8C3D6 /* FormalPracticeTable+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE3FF21DEA49F00A8C3D6 /* FormalPracticeTable+Convenience.swift */; };
+		EBDFE40221DEA4C900A8C3D6 /* GettingSatrtedQuestions+Convenience+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE40121DEA4C900A8C3D6 /* GettingSatrtedQuestions+Convenience+Convenience.swift */; };
+		EBDFE40421DEA4FA00A8C3D6 /* InformalTableWeek1+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE40321DEA4FA00A8C3D6 /* InformalTableWeek1+Convenience.swift */; };
+		EBDFE40621DEA52700A8C3D6 /* InformalTableWeek2+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE40521DEA52700A8C3D6 /* InformalTableWeek2+Convenience.swift */; };
+		EBDFE40821DEA53300A8C3D6 /* InformalTableWeek3+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE40721DEA53300A8C3D6 /* InformalTableWeek3+Convenience.swift */; };
+		EBDFE40A21DEA5E500A8C3D6 /* InformalTableWeek4+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE40921DEA5E500A8C3D6 /* InformalTableWeek4+Convenience.swift */; };
+		EBDFE40C21DEA5F400A8C3D6 /* InformalTableWeek5+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE40B21DEA5F400A8C3D6 /* InformalTableWeek5+Convenience.swift */; };
+		EBDFE40E21DEA60600A8C3D6 /* InformalTableWeek6+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE40D21DEA60600A8C3D6 /* InformalTableWeek6+Convenience.swift */; };
+		EBDFE41021DEA61800A8C3D6 /* InformalTableWeek7+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE40F21DEA61800A8C3D6 /* InformalTableWeek7+Convenience.swift */; };
+		EBDFE41221DEA64D00A8C3D6 /* MidwaySelfAssessment+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE41121DEA64D00A8C3D6 /* MidwaySelfAssessment+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +93,17 @@
 		D1A8A49221DD7B1400161B7A /* ResourcesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResourcesViewController.storyboard; sourceTree = "<group>"; };
 		D1A8A49521DD7BFD00161B7A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D1A8A49721DD7C1000161B7A /* SettingsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
+		EBDFE3FD21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseSummary+Convenience.swift"; sourceTree = "<group>"; };
+		EBDFE3FF21DEA49F00A8C3D6 /* FormalPracticeTable+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormalPracticeTable+Convenience.swift"; sourceTree = "<group>"; };
+		EBDFE40121DEA4C900A8C3D6 /* GettingSatrtedQuestions+Convenience+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GettingSatrtedQuestions+Convenience+Convenience.swift"; sourceTree = "<group>"; };
+		EBDFE40321DEA4FA00A8C3D6 /* InformalTableWeek1+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InformalTableWeek1+Convenience.swift"; sourceTree = "<group>"; };
+		EBDFE40521DEA52700A8C3D6 /* InformalTableWeek2+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InformalTableWeek2+Convenience.swift"; sourceTree = "<group>"; };
+		EBDFE40721DEA53300A8C3D6 /* InformalTableWeek3+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InformalTableWeek3+Convenience.swift"; sourceTree = "<group>"; };
+		EBDFE40921DEA5E500A8C3D6 /* InformalTableWeek4+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InformalTableWeek4+Convenience.swift"; sourceTree = "<group>"; };
+		EBDFE40B21DEA5F400A8C3D6 /* InformalTableWeek5+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InformalTableWeek5+Convenience.swift"; sourceTree = "<group>"; };
+		EBDFE40D21DEA60600A8C3D6 /* InformalTableWeek6+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InformalTableWeek6+Convenience.swift"; sourceTree = "<group>"; };
+		EBDFE40F21DEA61800A8C3D6 /* InformalTableWeek7+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InformalTableWeek7+Convenience.swift"; sourceTree = "<group>"; };
+		EBDFE41121DEA64D00A8C3D6 /* MidwaySelfAssessment+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MidwaySelfAssessment+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +170,17 @@
 				D178E8C621CAF75C0060B038 /* data.json */,
 				D13D594F21CAE9B7004FBEC1 /* MBSR.swift */,
 				D1A874D921CF280900434BEB /* MSBRContent.swift */,
+				EBDFE3FD21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift */,
+				EBDFE3FF21DEA49F00A8C3D6 /* FormalPracticeTable+Convenience.swift */,
+				EBDFE40121DEA4C900A8C3D6 /* GettingSatrtedQuestions+Convenience+Convenience.swift */,
+				EBDFE40321DEA4FA00A8C3D6 /* InformalTableWeek1+Convenience.swift */,
+				EBDFE40521DEA52700A8C3D6 /* InformalTableWeek2+Convenience.swift */,
+				EBDFE40721DEA53300A8C3D6 /* InformalTableWeek3+Convenience.swift */,
+				EBDFE40921DEA5E500A8C3D6 /* InformalTableWeek4+Convenience.swift */,
+				EBDFE40B21DEA5F400A8C3D6 /* InformalTableWeek5+Convenience.swift */,
+				EBDFE40D21DEA60600A8C3D6 /* InformalTableWeek6+Convenience.swift */,
+				EBDFE40F21DEA61800A8C3D6 /* InformalTableWeek7+Convenience.swift */,
+				EBDFE41121DEA64D00A8C3D6 /* MidwaySelfAssessment+Convenience.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -333,12 +366,21 @@
 				D1A874DE21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift in Sources */,
 				96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */,
 				D11F89C121DE8E1C00E79725 /* JournalOutlineTableView.swift in Sources */,
+				EBDFE40821DEA53300A8C3D6 /* InformalTableWeek3+Convenience.swift in Sources */,
+				EBDFE40421DEA4FA00A8C3D6 /* InformalTableWeek1+Convenience.swift in Sources */,
 				D1A8A49121DD7AEB00161B7A /* ResourcesViewController.swift in Sources */,
+				EBDFE41221DEA64D00A8C3D6 /* MidwaySelfAssessment+Convenience.swift in Sources */,
+				EBDFE40621DEA52700A8C3D6 /* InformalTableWeek2+Convenience.swift in Sources */,
 				D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */,
 				D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */,
+				EBDFE40E21DEA60600A8C3D6 /* InformalTableWeek6+Convenience.swift in Sources */,
+				EBDFE41021DEA61800A8C3D6 /* InformalTableWeek7+Convenience.swift in Sources */,
+				EBDFE40221DEA4C900A8C3D6 /* GettingSatrtedQuestions+Convenience+Convenience.swift in Sources */,
 				D11F89C221DE8E1C00E79725 /* JournalOutlineTableViewCell.swift in Sources */,
 				96A883D221DE88350044F164 /* NavigationController.swift in Sources */,
+				EBDFE40021DEA49F00A8C3D6 /* FormalPracticeTable+Convenience.swift in Sources */,
 				D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */,
+				EBDFE40C21DEA5F400A8C3D6 /* InformalTableWeek5+Convenience.swift in Sources */,
 				D11F89C021DE8E1C00E79725 /* JournalDetailViewController.swift in Sources */,
 				D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */,
 				D11F89C921DE8E5E00E79725 /* JournalTableViewCell.swift in Sources */,
@@ -348,9 +390,11 @@
 				D1A874DC21CF422000434BEB /* WeekOutlineTableView.swift in Sources */,
 				D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */,
 				D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */,
+				EBDFE40A21DEA5E500A8C3D6 /* InformalTableWeek4+Convenience.swift in Sources */,
 				D1A8A49621DD7BFD00161B7A /* SettingsViewController.swift in Sources */,
 				D13F64BE21C6B3E8000029E9 /* CoreData.swift in Sources */,
 				D178E8C121CAF1020060B038 /* WeekTableViewController.swift in Sources */,
+				EBDFE3FE21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift in Sources */,
 				D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */,
 				96A883CE21DD6F7D0044F164 /* UIImage.swift in Sources */,
 			);
