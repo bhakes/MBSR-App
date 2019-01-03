@@ -1,4 +1,112 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CourseSummary" representedClassName="CourseSummary" syncable="YES" codeGenerationType="class">
+        <attribute name="learnings" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FormalPracticeTable" representedClassName="FormalPracticeTable" syncable="YES" codeGenerationType="class">
+        <attribute name="logDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="practiceComments" optional="YES" syncable="YES"/>
+        <attribute name="practiceDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="practiceName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GettingStartedQuestions" representedClassName="GettingStartedQuestions" syncable="YES" codeGenerationType="class">
+        <attribute name="endOfCourse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practiceDays" optional="YES" syncable="YES"/>
+        <attribute name="practiceLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practiceTime" optional="YES" syncable="YES"/>
+        <attribute name="prepDay" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prepTime" optional="YES" syncable="YES"/>
+        <attribute name="strengths" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="InformalTableWeek1" representedClassName="InformalTableWeek1" syncable="YES" codeGenerationType="class">
+        <attribute name="after" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="before" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="during" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="learnings" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="practiceDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="situation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weekNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="InformalTableWeek2" representedClassName="InformalWeek1Table" syncable="YES" codeGenerationType="class">
+        <attribute name="after" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="awareness" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="during" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="experience" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="moods" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practiceDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="weekNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="InformalTableWeek3" representedClassName="InformalWeek1Table" syncable="YES" codeGenerationType="class">
+        <attribute name="after" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="awareness" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="during" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="experience" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="moods" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practiceDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="weekNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="InformalTableWeek4" representedClassName="InformalWeek1Table" syncable="YES" codeGenerationType="class">
+        <attribute name="after" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="awareness" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="during" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="learnings" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="practiceDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="situation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weekNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="InformalTableWeek5" representedClassName="InformalWeek1Table" syncable="YES" codeGenerationType="class">
+        <attribute name="after" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emotion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="physicality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pleasantMemory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practiceDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="situation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weekNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="InformalTableWeek6" representedClassName="InformalWeek1Table" syncable="YES" codeGenerationType="class">
+        <attribute name="actualOutcome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="describeCommunication" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desire" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duringAndAfter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="now" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="othersDesire" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practiceDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="weekNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="InformalTableWeek7" representedClassName="InformalWeek1Table" syncable="YES" codeGenerationType="class">
+        <attribute name="after" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="awareness" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="during" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="learnings" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="practiceDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="situation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weekNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MidwaySelfAssessment" representedClassName="MidwaySelfAssessment" syncable="YES" codeGenerationType="class">
+        <attribute name="logDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="practiceDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="recall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="whatIsHappening" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="whatIsNotHappening" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FormalPracticeTable" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="InformalTableWeek1" positionX="-36" positionY="36" width="128" height="165"/>
+        <element name="CourseSummary" positionX="0" positionY="99" width="128" height="60"/>
+        <element name="InformalTableWeek2" positionX="27" positionY="126" width="128" height="165"/>
+        <element name="InformalTableWeek3" positionX="-9" positionY="117" width="128" height="165"/>
+        <element name="InformalTableWeek4" positionX="0" positionY="126" width="128" height="165"/>
+        <element name="InformalTableWeek5" positionX="9" positionY="135" width="128" height="165"/>
+        <element name="InformalTableWeek6" positionX="18" positionY="153" width="128" height="180"/>
+        <element name="MidwaySelfAssessment" positionX="27" positionY="180" width="128" height="120"/>
+        <element name="InformalTableWeek7" positionX="36" positionY="189" width="128" height="165"/>
+        <element name="GettingStartedQuestions" positionX="45" positionY="198" width="128" height="150"/>
+    </elements>
 </model>
