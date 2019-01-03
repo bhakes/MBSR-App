@@ -14,6 +14,15 @@ class MSBRContent {
     static let shared = MSBRContent()
     private init() {}
     
+    enum InformalPractices: String, CaseIterable {
+        case informalWeek1 = "Simple Awareness"
+        case informalWeek2 = "Pleasant Events Calendar"
+        case informalWeek3 = "Unplesant Events Calendar"
+        case informalWeek4 = "STOP: One-Minute Breathing Space"
+        case informalWeek5 = "Turning Toward"
+        case informalWeek6 = "Communication Calendar"
+        case informalWeek7 = "Week 7"
+    }
     
     var tableOfContents = [
         "1":

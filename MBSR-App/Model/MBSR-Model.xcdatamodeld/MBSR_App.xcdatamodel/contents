@@ -18,7 +18,7 @@
         <attribute name="prepTime" optional="YES" syncable="YES"/>
         <attribute name="strengths" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="InformalTableWeek1" representedClassName="InformalTableWeek1" syncable="YES" codeGenerationType="class">
+    <entity name="I" representedClassName="I" syncable="YES" codeGenerationType="class">
         <attribute name="after" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="before" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="during" optional="YES" attributeType="String" syncable="YES"/>
@@ -98,7 +98,7 @@
     </entity>
     <elements>
         <element name="FormalPracticeTable" positionX="-54" positionY="-9" width="128" height="105"/>
-        <element name="InformalTableWeek1" positionX="-36" positionY="36" width="128" height="165"/>
+        <element name="I" positionX="-36" positionY="36" width="128" height="165"/>
         <element name="CourseSummary" positionX="0" positionY="99" width="128" height="60"/>
         <element name="InformalTableWeek2" positionX="27" positionY="126" width="128" height="165"/>
         <element name="InformalTableWeek3" positionX="-9" positionY="117" width="128" height="165"/>
