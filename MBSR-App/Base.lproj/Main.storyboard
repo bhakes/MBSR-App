@@ -12,7 +12,7 @@
         <!--Home-->
         <scene sceneID="AoT-yO-egU">
             <objects>
-                <navigationController id="HHW-Cr-cz4" sceneMemberID="viewController">
+                <navigationController id="HHW-Cr-cz4" customClass="NavigationController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="Home (Inactive)" selectedImage="Home (Active)" id="36W-O9-vQ2"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eqO-73-IJB">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -26,7 +26,7 @@
         <!--Week-->
         <scene sceneID="ARB-iW-Kmm">
             <objects>
-                <navigationController id="tto-xr-Hfc" sceneMemberID="viewController">
+                <navigationController id="tto-xr-Hfc" customClass="NavigationController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Week" image="Week (Inactive)" selectedImage="Week (Active)" id="UqR-vk-mKB"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9fY-SO-fgf">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -83,7 +83,7 @@
         <!--Practices-->
         <scene sceneID="FML-KB-J4p">
             <objects>
-                <navigationController id="FN5-UP-fPP" sceneMemberID="viewController">
+                <navigationController id="FN5-UP-fPP" customClass="NavigationController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Practices" image="Practices (Inactive)" selectedImage="Practices (Active)" id="Y1W-dH-ekn"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0ds-Jp-CS8">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -100,7 +100,7 @@
         <!--Journal-->
         <scene sceneID="BXq-oC-lRD">
             <objects>
-                <navigationController id="Byp-Xp-2D4" sceneMemberID="viewController">
+                <navigationController id="Byp-Xp-2D4" customClass="NavigationController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Journal" image="Journal (Inactive)" selectedImage="Journal (Active)" id="n3s-46-jPX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OVz-8k-MOz">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -145,7 +145,7 @@
         <!--Resources-->
         <scene sceneID="LsY-BN-L8g">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cNO-dL-9hc" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cNO-dL-9hc" customClass="NavigationController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Resources" image="Resources (Inactive)" selectedImage="Resources (Active)" id="Q32-4b-Tzk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M2n-Yn-zaL">

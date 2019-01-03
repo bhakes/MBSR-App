@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883CA21DD6C370044F164 /* TabBarController.swift */; };
 		96A883CE21DD6F7D0044F164 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883CD21DD6F7D0044F164 /* UIImage.swift */; };
+		96A883D221DE88350044F164 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883D121DE88350044F164 /* NavigationController.swift */; };
 		D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */; };
 		D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */; };
 		D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D594F21CAE9B7004FBEC1 /* MBSR.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		96A883CA21DD6C370044F164 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		96A883CD21DD6F7D0044F164 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		96A883D121DE88350044F164 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewCell.swift; sourceTree = "<group>"; };
 		D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesCollectionViewController.swift; sourceTree = "<group>"; };
 		D13D594F21CAE9B7004FBEC1 /* MBSR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSR.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				96A883CA21DD6C370044F164 /* TabBarController.swift */,
+				96A883D121DE88350044F164 /* NavigationController.swift */,
 				D1A8A49421DD7BB400161B7A /* SettingsViewController */,
 				D1A8A48F21DD7A8800161B7A /* ResourcesViewControlller */,
 				D1A8A48821DD789900161B7A /* JournalViewController */,
@@ -294,6 +297,7 @@
 				D13F64AE21C5A027000029E9 /* MBSR-Model.xcdatamodeld in Sources */,
 				D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */,
 				D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */,
+				96A883D221DE88350044F164 /* NavigationController.swift in Sources */,
 				D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */,
 				D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */,
 				D1A8A48E21DD79BF00161B7A /* JournalTableViewController.swift in Sources */,
@@ -453,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LHTMK9AWG;
 				INFOPLIST_FILE = "MBSR-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LHTMK9AWG;
 				INFOPLIST_FILE = "MBSR-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

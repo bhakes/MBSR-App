@@ -10,19 +10,20 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Resources View Controller-->
+        <!--Resources-->
         <scene sceneID="a6F-bf-Jrx">
             <objects>
                 <viewController storyboardIdentifier="ResourcesViewControllerSB" id="d8I-Da-ugp" customClass="ResourcesViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WOi-3x-UgW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="g7K-hC-M75"/>
                     </view>
-                    <navigationItem key="navigationItem" id="HU2-55-LWK">
+                    <navigationItem key="navigationItem" title="Resources" largeTitleDisplayMode="always" id="HU2-55-LWK">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="settings" id="nCJ-p2-UOt"/>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O8Z-d0-MBx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
