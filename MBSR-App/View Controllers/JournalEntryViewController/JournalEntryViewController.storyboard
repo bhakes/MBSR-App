@@ -18,20 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="uca-Fa-qFc">
-                                <rect key="frame" x="42.5" y="69.5" width="290" height="655"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="uca-Fa-qFc">
+                                <rect key="frame" x="20" y="80" width="335" height="567"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="k1e-Ld-4sA">
-                                        <rect key="frame" x="0.0" y="0.0" width="290" height="107.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="k1e-Ld-4sA">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="119.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhS-hV-IHP">
-                                                <rect key="frame" x="124" y="0.0" width="42" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhS-hV-IHP">
+                                                <rect key="frame" x="146.5" y="0.0" width="42" height="27"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing r" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4ZS-Sy-JcB">
-                                                <rect key="frame" x="0.0" y="22.5" width="290" height="85"/>
+                                                <rect key="frame" x="0.0" y="29" width="335" height="90.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -42,17 +42,17 @@
                                             <constraint firstItem="4ZS-Sy-JcB" firstAttribute="leading" secondItem="k1e-Ld-4sA" secondAttribute="leading" id="dQi-Cp-tdL"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="cx0-Vp-xD9">
-                                        <rect key="frame" x="0.0" y="109.5" width="290" height="107.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="cx0-Vp-xD9">
+                                        <rect key="frame" x="0.0" y="121.5" width="335" height="87.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2I-Bg-tU7">
-                                                <rect key="frame" x="124" y="0.0" width="42" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2I-Bg-tU7">
+                                                <rect key="frame" x="146.5" y="0.0" width="42" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing r" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i3c-zv-XEq">
-                                                <rect key="frame" x="0.0" y="22.5" width="290" height="85"/>
+                                                <rect key="frame" x="0.0" y="22.5" width="335" height="65"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -64,17 +64,17 @@
                                         </constraints>
                                         <viewLayoutGuide key="safeArea" id="SCo-qf-yZK"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="51q-hH-Mxv">
-                                        <rect key="frame" x="0.0" y="219" width="290" height="107.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="51q-hH-Mxv">
+                                        <rect key="frame" x="0.0" y="211" width="335" height="87.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4R-Is-JEh">
-                                                <rect key="frame" x="124" y="0.0" width="42" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4R-Is-JEh">
+                                                <rect key="frame" x="146.5" y="0.0" width="42" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing r" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PQx-9J-N44">
-                                                <rect key="frame" x="0.0" y="22.5" width="290" height="85"/>
+                                                <rect key="frame" x="0.0" y="22.5" width="335" height="65"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -86,17 +86,17 @@
                                         </constraints>
                                         <viewLayoutGuide key="safeArea" id="10N-5W-NHo"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="jS1-Oz-cW2">
-                                        <rect key="frame" x="0.0" y="328.5" width="290" height="107.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="jS1-Oz-cW2">
+                                        <rect key="frame" x="0.0" y="300.5" width="335" height="87.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buM-sj-5AB">
-                                                <rect key="frame" x="124" y="0.0" width="42" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buM-sj-5AB">
+                                                <rect key="frame" x="146.5" y="0.0" width="42" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing r" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="D8v-nX-nbW">
-                                                <rect key="frame" x="0.0" y="22.5" width="290" height="85"/>
+                                                <rect key="frame" x="0.0" y="22.5" width="335" height="65"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -108,17 +108,17 @@
                                         </constraints>
                                         <viewLayoutGuide key="safeArea" id="Kwe-fK-WC6"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="LOy-Ga-Yym">
-                                        <rect key="frame" x="0.0" y="438" width="290" height="107.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="LOy-Ga-Yym">
+                                        <rect key="frame" x="0.0" y="390" width="335" height="87.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVZ-mn-450">
-                                                <rect key="frame" x="124" y="0.0" width="42" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVZ-mn-450">
+                                                <rect key="frame" x="146.5" y="0.0" width="42" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing r" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vhj-LG-jhf">
-                                                <rect key="frame" x="0.0" y="22.5" width="290" height="85"/>
+                                                <rect key="frame" x="0.0" y="22.5" width="335" height="65"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -130,17 +130,17 @@
                                         </constraints>
                                         <viewLayoutGuide key="safeArea" id="rIM-Gc-dwI"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ARs-yI-koi">
-                                        <rect key="frame" x="0.0" y="547.5" width="290" height="107.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ARs-yI-koi">
+                                        <rect key="frame" x="0.0" y="479.5" width="335" height="87.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfB-GN-bEb">
-                                                <rect key="frame" x="124" y="0.0" width="42" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfB-GN-bEb">
+                                                <rect key="frame" x="146.5" y="0.0" width="42" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing r" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UuH-9H-a8D">
-                                                <rect key="frame" x="0.0" y="22.5" width="290" height="85"/>
+                                                <rect key="frame" x="0.0" y="22.5" width="335" height="65"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -158,7 +158,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="uca-Fa-qFc" firstAttribute="centerX" secondItem="Owu-hH-LLe" secondAttribute="centerX" id="1Ib-oD-j0q"/>
-                            <constraint firstItem="uca-Fa-qFc" firstAttribute="centerY" secondItem="Owu-hH-LLe" secondAttribute="centerY" id="G9Y-H4-gTf"/>
+                            <constraint firstItem="uca-Fa-qFc" firstAttribute="top" secondItem="jMR-Cu-NO9" secondAttribute="top" constant="60" id="5tu-jU-D67"/>
+                            <constraint firstItem="jMR-Cu-NO9" firstAttribute="trailing" secondItem="uca-Fa-qFc" secondAttribute="trailing" constant="20" id="6Dj-tk-qnG"/>
+                            <constraint firstItem="uca-Fa-qFc" firstAttribute="leading" secondItem="jMR-Cu-NO9" secondAttribute="leading" constant="20" id="V2q-6b-YLd"/>
+                            <constraint firstItem="jMR-Cu-NO9" firstAttribute="bottom" secondItem="uca-Fa-qFc" secondAttribute="bottom" constant="20" id="s2t-nI-dq2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jMR-Cu-NO9"/>
                     </view>

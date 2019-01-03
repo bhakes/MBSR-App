@@ -16,7 +16,10 @@ class JournalDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var newEntryButton: UIButton!
+    @IBAction func newEntryButtonClicked(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
