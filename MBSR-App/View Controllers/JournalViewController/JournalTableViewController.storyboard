@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="2999" y="920"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--JournalDetailViewControllerSB-->
         <scene sceneID="aUC-QF-V9p">
             <objects>
-                <viewControllerPlaceholder id="HzX-ed-SAt" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="JournalDetailViewController" referencedIdentifier="JournalDetailViewControllerSB" id="HzX-ed-SAt" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ssb-Za-vPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3607" y="794"/>

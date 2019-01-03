@@ -10,12 +10,18 @@
 		96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883CA21DD6C370044F164 /* TabBarController.swift */; };
 		96A883CE21DD6F7D0044F164 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883CD21DD6F7D0044F164 /* UIImage.swift */; };
 		96A883D221DE88350044F164 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883D121DE88350044F164 /* NavigationController.swift */; };
+		D11F89BF21DE8E1C00E79725 /* JournalDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11F89BB21DE8E1B00E79725 /* JournalDetailViewController.storyboard */; };
+		D11F89C021DE8E1C00E79725 /* JournalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89BC21DE8E1B00E79725 /* JournalDetailViewController.swift */; };
+		D11F89C121DE8E1C00E79725 /* JournalOutlineTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89BD21DE8E1B00E79725 /* JournalOutlineTableView.swift */; };
+		D11F89C221DE8E1C00E79725 /* JournalOutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89BE21DE8E1B00E79725 /* JournalOutlineTableViewCell.swift */; };
+		D11F89C621DE8E3100E79725 /* JournalEntryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11F89C421DE8E3100E79725 /* JournalEntryViewController.storyboard */; };
+		D11F89C721DE8E3100E79725 /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89C521DE8E3100E79725 /* JournalEntryViewController.swift */; };
+		D11F89C921DE8E5E00E79725 /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89C821DE8E5E00E79725 /* JournalTableViewCell.swift */; };
 		D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */; };
 		D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */; };
 		D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D594F21CAE9B7004FBEC1 /* MBSR.swift */; };
 		D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F64A521C5A027000029E9 /* AppDelegate.swift */; };
 		D13F64AB21C5A027000029E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13F64A921C5A027000029E9 /* Main.storyboard */; };
-		D13F64AE21C5A027000029E9 /* MBSR-Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D13F64AC21C5A027000029E9 /* MBSR-Model.xcdatamodeld */; };
 		D13F64B021C5A028000029E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13F64AF21C5A028000029E9 /* Assets.xcassets */; };
 		D13F64B321C5A028000029E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13F64B121C5A028000029E9 /* LaunchScreen.storyboard */; };
 		D13F64BE21C6B3E8000029E9 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F64BD21C6B3E8000029E9 /* CoreData.swift */; };
@@ -41,13 +47,19 @@
 		96A883CA21DD6C370044F164 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		96A883CD21DD6F7D0044F164 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		96A883D121DE88350044F164 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		D11F89BB21DE8E1B00E79725 /* JournalDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JournalDetailViewController.storyboard; sourceTree = "<group>"; };
+		D11F89BC21DE8E1B00E79725 /* JournalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalDetailViewController.swift; sourceTree = "<group>"; };
+		D11F89BD21DE8E1B00E79725 /* JournalOutlineTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalOutlineTableView.swift; sourceTree = "<group>"; };
+		D11F89BE21DE8E1B00E79725 /* JournalOutlineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalOutlineTableViewCell.swift; sourceTree = "<group>"; };
+		D11F89C421DE8E3100E79725 /* JournalEntryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JournalEntryViewController.storyboard; sourceTree = "<group>"; };
+		D11F89C521DE8E3100E79725 /* JournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
+		D11F89C821DE8E5E00E79725 /* JournalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
 		D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewCell.swift; sourceTree = "<group>"; };
 		D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesCollectionViewController.swift; sourceTree = "<group>"; };
 		D13D594F21CAE9B7004FBEC1 /* MBSR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSR.swift; sourceTree = "<group>"; };
 		D13F64A221C5A027000029E9 /* MBSR-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBSR-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13F64A521C5A027000029E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D13F64AA21C5A027000029E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D13F64AD21C5A027000029E9 /* MBSR_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MBSR_App.xcdatamodel; sourceTree = "<group>"; };
 		D13F64AF21C5A028000029E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D13F64B221C5A028000029E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D13F64B421C5A028000029E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +101,26 @@
 			path = "Extensions+Utilities";
 			sourceTree = "<group>";
 		};
+		D11F89BA21DE8E1B00E79725 /* JournalDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D11F89BB21DE8E1B00E79725 /* JournalDetailViewController.storyboard */,
+				D11F89BC21DE8E1B00E79725 /* JournalDetailViewController.swift */,
+				D11F89BD21DE8E1B00E79725 /* JournalOutlineTableView.swift */,
+				D11F89BE21DE8E1B00E79725 /* JournalOutlineTableViewCell.swift */,
+			);
+			path = JournalDetailViewController;
+			sourceTree = "<group>";
+		};
+		D11F89C321DE8E3100E79725 /* JournalEntryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D11F89C421DE8E3100E79725 /* JournalEntryViewController.storyboard */,
+				D11F89C521DE8E3100E79725 /* JournalEntryViewController.swift */,
+			);
+			path = JournalEntryViewController;
+			sourceTree = "<group>";
+		};
 		D13D594C21CADFE5004FBEC1 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +128,8 @@
 				96A883D121DE88350044F164 /* NavigationController.swift */,
 				D1A8A49421DD7BB400161B7A /* SettingsViewController */,
 				D1A8A48F21DD7A8800161B7A /* ResourcesViewControlller */,
+				D11F89BA21DE8E1B00E79725 /* JournalDetailViewController */,
+				D11F89C321DE8E3100E79725 /* JournalEntryViewController */,
 				D1A8A48821DD789900161B7A /* JournalViewController */,
 				D1A8A48121DD763500161B7A /* WeekTableViewController */,
 				D1A8A48421DD76BD00161B7A /* WeekDetailViewController */,
@@ -111,7 +145,6 @@
 				D178E8C621CAF75C0060B038 /* data.json */,
 				D13D594F21CAE9B7004FBEC1 /* MBSR.swift */,
 				D1A874D921CF280900434BEB /* MSBRContent.swift */,
-				D13F64AC21C5A027000029E9 /* MBSR-Model.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +222,7 @@
 		D1A8A48821DD789900161B7A /* JournalViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D11F89C821DE8E5E00E79725 /* JournalTableViewCell.swift */,
 				D1A8A48D21DD79BF00161B7A /* JournalTableViewController.swift */,
 				D1A8A48B21DD796500161B7A /* JournalTableViewController.storyboard */,
 			);
@@ -271,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11F89C621DE8E3100E79725 /* JournalEntryViewController.storyboard in Resources */,
 				D1A8A49321DD7B1400161B7A /* ResourcesViewController.storyboard in Resources */,
 				D1A8A48621DD770C00161B7A /* WeekDetailViewController.storyboard in Resources */,
 				D1A8A49821DD7C1000161B7A /* SettingsViewController.storyboard in Resources */,
@@ -278,6 +313,7 @@
 				D13F64B021C5A028000029E9 /* Assets.xcassets in Resources */,
 				D13F64AB21C5A027000029E9 /* Main.storyboard in Resources */,
 				D178E8C721CAF75C0060B038 /* data.json in Resources */,
+				D11F89BF21DE8E1C00E79725 /* JournalDetailViewController.storyboard in Resources */,
 				D1A8A48321DD766600161B7A /* WeekTableViewController.storyboard in Resources */,
 				D1A8A48C21DD796500161B7A /* JournalTableViewController.storyboard in Resources */,
 				D1A8A48A21DD790B00161B7A /* PracticesCollectionViewController.storyboard in Resources */,
@@ -293,13 +329,17 @@
 			files = (
 				D1A874DE21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift in Sources */,
 				96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */,
+				D11F89C121DE8E1C00E79725 /* JournalOutlineTableView.swift in Sources */,
 				D1A8A49121DD7AEB00161B7A /* ResourcesViewController.swift in Sources */,
-				D13F64AE21C5A027000029E9 /* MBSR-Model.xcdatamodeld in Sources */,
 				D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */,
 				D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */,
+				D11F89C221DE8E1C00E79725 /* JournalOutlineTableViewCell.swift in Sources */,
 				96A883D221DE88350044F164 /* NavigationController.swift in Sources */,
 				D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */,
+				D11F89C021DE8E1C00E79725 /* JournalDetailViewController.swift in Sources */,
 				D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */,
+				D11F89C921DE8E5E00E79725 /* JournalTableViewCell.swift in Sources */,
+				D11F89C721DE8E3100E79725 /* JournalEntryViewController.swift in Sources */,
 				D1A8A48E21DD79BF00161B7A /* JournalTableViewController.swift in Sources */,
 				D1A874DC21CF422000434BEB /* WeekOutlineTableView.swift in Sources */,
 				D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */,
@@ -510,19 +550,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D13F64AC21C5A027000029E9 /* MBSR-Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D13F64AD21C5A027000029E9 /* MBSR_App.xcdatamodel */,
-			);
-			currentVersion = D13F64AD21C5A027000029E9 /* MBSR_App.xcdatamodel */;
-			path = "MBSR-Model.xcdatamodeld";
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D13F649A21C5A027000029E9 /* Project object */;
 }
