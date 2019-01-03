@@ -13,7 +13,7 @@
         <scene sceneID="AoT-yO-egU">
             <objects>
                 <navigationController id="HHW-Cr-cz4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="home" id="36W-O9-vQ2"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="Home (Inactive)" selectedImage="Home (Active)" id="36W-O9-vQ2"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eqO-73-IJB">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -27,7 +27,7 @@
         <scene sceneID="ARB-iW-Kmm">
             <objects>
                 <navigationController id="tto-xr-Hfc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Week" image="list" id="UqR-vk-mKB"/>
+                    <tabBarItem key="tabBarItem" title="Week" image="Week (Inactive)" selectedImage="Week (Active)" id="UqR-vk-mKB"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9fY-SO-fgf">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -84,7 +84,7 @@
         <scene sceneID="FML-KB-J4p">
             <objects>
                 <navigationController id="FN5-UP-fPP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Practices" image="circled_play" id="Y1W-dH-ekn"/>
+                    <tabBarItem key="tabBarItem" title="Practices" image="Practices (Inactive)" selectedImage="Practices (Active)" id="Y1W-dH-ekn"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0ds-Jp-CS8">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -101,7 +101,7 @@
         <scene sceneID="BXq-oC-lRD">
             <objects>
                 <navigationController id="Byp-Xp-2D4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Journal" image="ball_point_pen" id="n3s-46-jPX"/>
+                    <tabBarItem key="tabBarItem" title="Journal" image="Journal (Inactive)" selectedImage="Journal (Active)" id="n3s-46-jPX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OVz-8k-MOz">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -146,7 +146,7 @@
         <scene sceneID="LsY-BN-L8g">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cNO-dL-9hc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Resources" image="product" id="Q32-4b-Tzk"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="Resources (Inactive)" selectedImage="Resources (Active)" id="Q32-4b-Tzk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M2n-Yn-zaL">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -163,11 +163,16 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ball_point_pen" width="30" height="30"/>
-        <image name="circled_play" width="30" height="30"/>
-        <image name="home" width="30" height="30"/>
-        <image name="list" width="30" height="30"/>
-        <image name="product" width="30" height="30"/>
+        <image name="Home (Active)" width="48" height="32"/>
+        <image name="Home (Inactive)" width="48" height="32"/>
+        <image name="Journal (Active)" width="48" height="32"/>
+        <image name="Journal (Inactive)" width="48" height="32"/>
+        <image name="Practices (Active)" width="48" height="32"/>
+        <image name="Practices (Inactive)" width="48" height="32"/>
+        <image name="Resources (Active)" width="48" height="32"/>
+        <image name="Resources (Inactive)" width="48" height="32"/>
+        <image name="Week (Active)" width="48" height="32"/>
+        <image name="Week (Inactive)" width="48" height="32"/>
     </resources>
     <color key="tintColor" red="0.55412418019555287" green="0.43794370743108729" blue="0.76022101683937826" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
