@@ -10,9 +10,7 @@ import UIKit
 
 class PracticesCollectionViewCell: UICollectionViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+    @IBOutlet weak var titleLabel: UILabel!
+    static let reuseIdentifier = "practicesCell"
 
 }

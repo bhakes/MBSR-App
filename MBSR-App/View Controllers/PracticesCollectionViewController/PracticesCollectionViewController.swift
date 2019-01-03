@@ -8,20 +8,28 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
-
-class PracticesCollectionViewController: UICollectionViewController {
-
+class PracticesCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
+        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: PracticesCollectionViewCell.reuseIdentifier)
+        
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        guard let collectionViewLayout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout else {fatalError("missed assignment of collection view layout")}
+        
+        collectionViewLayout.minimumLineSpacing = .greatestFiniteMagnitude
+        
+        collectionViewLayout.scrollDirection = .horizontal
     }
 
     /*
@@ -48,7 +56,10 @@ class PracticesCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PracticesCollectionViewCell.reuseIdentifier, for: indexPath) as? PracticesCollectionViewCell else {fatalError("unable to dequeue cell of proper type")}
+        
+        cell.titleLabel.text = "Practice"
     
         // Configure the cell
     
