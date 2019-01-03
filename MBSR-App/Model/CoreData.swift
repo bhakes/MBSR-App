@@ -14,10 +14,8 @@ class CoreDataStack {
     static let shared = CoreDataStack()
     private init() {}
     
-    
-    
     lazy var container: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "MBSR-Model")
+        let container = NSPersistentContainer(name: "MBSR-App")
         container.loadPersistentStores{ (_, error) in
             if let error = error {
                 fatalError("error loading Core Data stores: \(error)")
@@ -27,7 +25,5 @@ class CoreDataStack {
     }()
     
     var mainContext: NSManagedObjectContext{ return container.viewContext }
-    
-    
     
 }

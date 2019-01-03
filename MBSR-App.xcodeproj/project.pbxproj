@@ -10,6 +10,7 @@
 		96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883CA21DD6C370044F164 /* TabBarController.swift */; };
 		96A883CE21DD6F7D0044F164 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883CD21DD6F7D0044F164 /* UIImage.swift */; };
 		96A883D221DE88350044F164 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883D121DE88350044F164 /* NavigationController.swift */; };
+		96A883D521DE9C1B0044F164 /* MBSR-App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96A883D321DE9C1B0044F164 /* MBSR-App.xcdatamodeld */; };
 		D11F89BF21DE8E1C00E79725 /* JournalDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11F89BB21DE8E1B00E79725 /* JournalDetailViewController.storyboard */; };
 		D11F89C021DE8E1C00E79725 /* JournalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89BC21DE8E1B00E79725 /* JournalDetailViewController.swift */; };
 		D11F89C121DE8E1C00E79725 /* JournalOutlineTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89BD21DE8E1B00E79725 /* JournalOutlineTableView.swift */; };
@@ -47,6 +48,7 @@
 		96A883CA21DD6C370044F164 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		96A883CD21DD6F7D0044F164 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		96A883D121DE88350044F164 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		96A883D421DE9C1B0044F164 /* MBSR_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MBSR_App.xcdatamodel; sourceTree = "<group>"; };
 		D11F89BB21DE8E1B00E79725 /* JournalDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JournalDetailViewController.storyboard; sourceTree = "<group>"; };
 		D11F89BC21DE8E1B00E79725 /* JournalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalDetailViewController.swift; sourceTree = "<group>"; };
 		D11F89BD21DE8E1B00E79725 /* JournalOutlineTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalOutlineTableView.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		D13D594D21CADFF4004FBEC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				96A883D321DE9C1B0044F164 /* MBSR-App.xcdatamodeld */,
 				D13F64BD21C6B3E8000029E9 /* CoreData.swift */,
 				D178E8C621CAF75C0060B038 /* data.json */,
 				D13D594F21CAE9B7004FBEC1 /* MBSR.swift */,
@@ -339,6 +342,7 @@
 				D11F89C021DE8E1C00E79725 /* JournalDetailViewController.swift in Sources */,
 				D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */,
 				D11F89C921DE8E5E00E79725 /* JournalTableViewCell.swift in Sources */,
+				96A883D521DE9C1B0044F164 /* MBSR-App.xcdatamodeld in Sources */,
 				D11F89C721DE8E3100E79725 /* JournalEntryViewController.swift in Sources */,
 				D1A8A48E21DD79BF00161B7A /* JournalTableViewController.swift in Sources */,
 				D1A874DC21CF422000434BEB /* WeekOutlineTableView.swift in Sources */,
@@ -550,6 +554,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96A883D321DE9C1B0044F164 /* MBSR-App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96A883D421DE9C1B0044F164 /* MBSR_App.xcdatamodel */,
+			);
+			currentVersion = 96A883D421DE9C1B0044F164 /* MBSR_App.xcdatamodel */;
+			path = "MBSR-App.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D13F649A21C5A027000029E9 /* Project object */;
 }
