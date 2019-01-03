@@ -12,7 +12,7 @@
         <!--Weeks-->
         <scene sceneID="TNR-TI-jvw">
             <objects>
-                <tableViewController id="JdT-sQ-9xZ" customClass="WeekTableViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="WeekTableViewControllerSB" id="JdT-sQ-9xZ" customClass="WeekTableViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Fi3-N8-6b2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,6 +34,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="BPG-sF-YJG" kind="show" id="4hq-U0-Eq3"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -46,6 +49,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="220-K2-pqq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1599" y="920"/>
+        </scene>
+        <!--WeekDetailViewControllerSB-->
+        <scene sceneID="XHG-Z2-Etw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="WeekDetailViewController" referencedIdentifier="WeekDetailViewControllerSB" id="BPG-sF-YJG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X90-Im-QCR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2156" y="900"/>
         </scene>
     </scenes>
 </document>

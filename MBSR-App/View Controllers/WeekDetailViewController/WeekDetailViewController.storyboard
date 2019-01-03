@@ -13,7 +13,7 @@
         <!--Title-->
         <scene sceneID="D4r-Wy-iwp">
             <objects>
-                <viewController id="uhE-8m-lu0" customClass="WeekDetailViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WeekDetailViewControllerSB" id="uhE-8m-lu0" customClass="WeekDetailViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2HK-ak-Y55">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

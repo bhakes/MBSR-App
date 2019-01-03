@@ -32,10 +32,53 @@
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="Xyv-37-SAI" kind="relationship" relationship="rootViewController" id="bp1-P1-z24"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ppd-9p-TN6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1624.8" y="58.920539730134934"/>
+        </scene>
+        <!--WeekTableViewControllerSB-->
+        <scene sceneID="tiU-gL-rGe">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="WeekTableViewControllerSB" storyboardName="WeekTableViewController" referencedIdentifier="WeekTableViewControllerSB" id="Xyv-37-SAI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="uz9-sj-82a"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2c-cE-My3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1639" y="489"/>
+        </scene>
+        <!--PracticesCollectionViewControllerSB-->
+        <scene sceneID="DU7-ui-FaE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PracticesCollectionViewController" referencedIdentifier="PracticesCollectionViewControllerSB" id="Gj7-JI-N6K" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mlX-Yw-ezq"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T2X-qv-uuw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2302" y="489"/>
+        </scene>
+        <!--JournalTableViewControllerSB-->
+        <scene sceneID="3KV-hg-HWj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="JournalTableViewController" referencedIdentifier="JournalTableViewControllerSB" id="BHc-Ve-Y5l" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Oh9-Q7-wra"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TJp-AL-yWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2970" y="491"/>
+        </scene>
+        <!--ResourcesViewControllerSB-->
+        <scene sceneID="2mp-W1-Ktx">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ResourcesViewController" referencedIdentifier="ResourcesViewControllerSB" id="9Ca-Yj-3by" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="l8h-0b-AFu"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N7T-cn-ut9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3671" y="489"/>
         </scene>
         <!--Practices-->
         <scene sceneID="FML-KB-J4p">
@@ -46,6 +89,9 @@
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="Gj7-JI-N6K" kind="relationship" relationship="rootViewController" id="lVp-Zk-o8s"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ofh-69-duR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,6 +106,9 @@
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="BHc-Ve-Y5l" kind="relationship" relationship="rootViewController" id="T7g-lg-1Zc"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OGb-6p-zl9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -104,6 +153,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9Ca-Yj-3by" kind="relationship" relationship="rootViewController" id="vof-U5-Ja0"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Phh-wU-zw0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

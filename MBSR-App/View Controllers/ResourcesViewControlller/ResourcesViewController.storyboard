@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Resources View Controller-->
         <scene sceneID="a6F-bf-Jrx">
             <objects>
-                <viewController id="d8I-Da-ugp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResourcesViewControllerSB" id="d8I-Da-ugp" customClass="ResourcesViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WOi-3x-UgW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,7 +26,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O8Z-d0-MBx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3946" y="946"/>
+            <point key="canvasLocation" x="3998" y="959"/>
+        </scene>
+        <!--SettingsViewControllerSB-->
+        <scene sceneID="9lH-LG-gRi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SettingsViewController" referencedIdentifier="SettingsViewControllerSB" id="79z-8y-uGV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EZA-8k-lxk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4595" y="917"/>
         </scene>
     </scenes>
     <resources>
