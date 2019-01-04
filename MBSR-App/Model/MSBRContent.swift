@@ -1528,10 +1528,10 @@ struct Practice {
     let author: String?
     let estReadingTime: Int?
     let timeLength: Int?
-    let url: String?
+    let url: URL
     var viewed: Int
     
-    init(title: String, subtitle: String? = nil, icon: UIImage = UIImage(), contentColor: UIColor, contentType: ContentType, publisher: String?, author: String?, estReadingTime: Int?, timeLength: Int?, url: String?, viewed: Int = 0) {
+    init(title: String, subtitle: String? = nil, icon: UIImage = UIImage(), contentColor: UIColor, contentType: ContentType, publisher: String?, author: String?, estReadingTime: Int?, timeLength: Int?, url: String, viewed: Int = 0) {
         
         self.title = title
         self.subtitle = subtitle
@@ -1542,7 +1542,7 @@ struct Practice {
         self.author = author
         self.estReadingTime = estReadingTime
         self.timeLength = timeLength
-        self.url = url
+        self.url = URL(string: url)!
         self.viewed = viewed
     }
 }
