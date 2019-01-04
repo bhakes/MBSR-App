@@ -11,6 +11,24 @@
 		96A883CE21DD6F7D0044F164 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883CD21DD6F7D0044F164 /* UIImage.swift */; };
 		96A883D221DE88350044F164 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A883D121DE88350044F164 /* NavigationController.swift */; };
 		96A883D521DE9C1B0044F164 /* MBSR-App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96A883D321DE9C1B0044F164 /* MBSR-App.xcdatamodeld */; };
+		96F5C6FC21DF5DD7005887CD /* Reusable+NSTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6E721DF5DD7005887CD /* Reusable+NSTableView.swift */; };
+		96F5C6FD21DF5DD7005887CD /* Nib+NSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6E821DF5DD7005887CD /* Nib+NSViewController.swift */; };
+		96F5C6FE21DF5DD7005887CD /* Storyboard+NSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6E921DF5DD7005887CD /* Storyboard+NSViewController.swift */; };
+		96F5C6FF21DF5DD7005887CD /* Reusable+NSCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6EA21DF5DD7005887CD /* Reusable+NSCollectionView.swift */; };
+		96F5C70021DF5DD7005887CD /* Nib+NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6EB21DF5DD7005887CD /* Nib+NSView.swift */; };
+		96F5C70121DF5DD7005887CD /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6EC21DF5DD7005887CD /* Nib.swift */; };
+		96F5C70221DF5DD7005887CD /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6ED21DF5DD7005887CD /* Reusable.swift */; };
+		96F5C70321DF5DD7005887CD /* Nib+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6EF21DF5DD7005887CD /* Nib+UIView.swift */; };
+		96F5C70421DF5DD7005887CD /* Reusable+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F021DF5DD7005887CD /* Reusable+UICollectionView.swift */; };
+		96F5C70521DF5DD7005887CD /* Storyboard+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F121DF5DD7005887CD /* Storyboard+UIViewController.swift */; };
+		96F5C70621DF5DD7005887CD /* Nib+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F221DF5DD7005887CD /* Nib+UIViewController.swift */; };
+		96F5C70721DF5DD7005887CD /* Reusable+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F321DF5DD7005887CD /* Reusable+UITableView.swift */; };
+		96F5C70821DF5DD7005887CD /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F421DF5DD7005887CD /* Storyboard.swift */; };
+		96F5C70921DF5DD7005887CD /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F521DF5DD7005887CD /* Deprecated.swift */; };
+		96F5C70A21DF5DD7005887CD /* Injectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F621DF5DD7005887CD /* Injectable.swift */; };
+		96F5C70B21DF5DD7005887CD /* Instantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F721DF5DD7005887CD /* Instantiatable.swift */; };
+		96F5C70C21DF5DD7005887CD /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F821DF5DD7005887CD /* Identifier.swift */; };
+		96F5C70D21DF5DD7005887CD /* ViewLoadBeforeInject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F921DF5DD7005887CD /* ViewLoadBeforeInject.swift */; };
 		D11F89BF21DE8E1C00E79725 /* JournalDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11F89BB21DE8E1B00E79725 /* JournalDetailViewController.storyboard */; };
 		D11F89C021DE8E1C00E79725 /* JournalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89BC21DE8E1B00E79725 /* JournalDetailViewController.swift */; };
 		D11F89C121DE8E1C00E79725 /* JournalOutlineTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89BD21DE8E1B00E79725 /* JournalOutlineTableView.swift */; };
@@ -64,6 +82,24 @@
 		96A883CD21DD6F7D0044F164 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		96A883D121DE88350044F164 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		96A883D421DE9C1B0044F164 /* MBSR_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MBSR_App.xcdatamodel; sourceTree = "<group>"; };
+		96F5C6E721DF5DD7005887CD /* Reusable+NSTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reusable+NSTableView.swift"; sourceTree = "<group>"; };
+		96F5C6E821DF5DD7005887CD /* Nib+NSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Nib+NSViewController.swift"; sourceTree = "<group>"; };
+		96F5C6E921DF5DD7005887CD /* Storyboard+NSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+NSViewController.swift"; sourceTree = "<group>"; };
+		96F5C6EA21DF5DD7005887CD /* Reusable+NSCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reusable+NSCollectionView.swift"; sourceTree = "<group>"; };
+		96F5C6EB21DF5DD7005887CD /* Nib+NSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Nib+NSView.swift"; sourceTree = "<group>"; };
+		96F5C6EC21DF5DD7005887CD /* Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
+		96F5C6ED21DF5DD7005887CD /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		96F5C6EF21DF5DD7005887CD /* Nib+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Nib+UIView.swift"; sourceTree = "<group>"; };
+		96F5C6F021DF5DD7005887CD /* Reusable+UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reusable+UICollectionView.swift"; sourceTree = "<group>"; };
+		96F5C6F121DF5DD7005887CD /* Storyboard+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+UIViewController.swift"; sourceTree = "<group>"; };
+		96F5C6F221DF5DD7005887CD /* Nib+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Nib+UIViewController.swift"; sourceTree = "<group>"; };
+		96F5C6F321DF5DD7005887CD /* Reusable+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reusable+UITableView.swift"; sourceTree = "<group>"; };
+		96F5C6F421DF5DD7005887CD /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		96F5C6F521DF5DD7005887CD /* Deprecated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deprecated.swift; sourceTree = "<group>"; };
+		96F5C6F621DF5DD7005887CD /* Injectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injectable.swift; sourceTree = "<group>"; };
+		96F5C6F721DF5DD7005887CD /* Instantiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiatable.swift; sourceTree = "<group>"; };
+		96F5C6F821DF5DD7005887CD /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		96F5C6F921DF5DD7005887CD /* ViewLoadBeforeInject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLoadBeforeInject.swift; sourceTree = "<group>"; };
 		D11F89BB21DE8E1B00E79725 /* JournalDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JournalDetailViewController.storyboard; sourceTree = "<group>"; };
 		D11F89BC21DE8E1B00E79725 /* JournalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalDetailViewController.swift; sourceTree = "<group>"; };
 		D11F89BD21DE8E1B00E79725 /* JournalOutlineTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalOutlineTableView.swift; sourceTree = "<group>"; };
@@ -128,9 +164,51 @@
 		96A883CC21DD6F5C0044F164 /* Extensions+Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				96F5C6E521DF5DD7005887CD /* Instantiate */,
 				96A883CD21DD6F7D0044F164 /* UIImage.swift */,
 			);
 			path = "Extensions+Utilities";
+			sourceTree = "<group>";
+		};
+		96F5C6E521DF5DD7005887CD /* Instantiate */ = {
+			isa = PBXGroup;
+			children = (
+				96F5C6E621DF5DD7005887CD /* macOS */,
+				96F5C6EC21DF5DD7005887CD /* Nib.swift */,
+				96F5C6ED21DF5DD7005887CD /* Reusable.swift */,
+				96F5C6EE21DF5DD7005887CD /* iOS */,
+				96F5C6F421DF5DD7005887CD /* Storyboard.swift */,
+				96F5C6F521DF5DD7005887CD /* Deprecated.swift */,
+				96F5C6F621DF5DD7005887CD /* Injectable.swift */,
+				96F5C6F721DF5DD7005887CD /* Instantiatable.swift */,
+				96F5C6F821DF5DD7005887CD /* Identifier.swift */,
+				96F5C6F921DF5DD7005887CD /* ViewLoadBeforeInject.swift */,
+			);
+			path = Instantiate;
+			sourceTree = "<group>";
+		};
+		96F5C6E621DF5DD7005887CD /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				96F5C6E721DF5DD7005887CD /* Reusable+NSTableView.swift */,
+				96F5C6E821DF5DD7005887CD /* Nib+NSViewController.swift */,
+				96F5C6E921DF5DD7005887CD /* Storyboard+NSViewController.swift */,
+				96F5C6EA21DF5DD7005887CD /* Reusable+NSCollectionView.swift */,
+				96F5C6EB21DF5DD7005887CD /* Nib+NSView.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		96F5C6EE21DF5DD7005887CD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				96F5C6EF21DF5DD7005887CD /* Nib+UIView.swift */,
+				96F5C6F021DF5DD7005887CD /* Reusable+UICollectionView.swift */,
+				96F5C6F121DF5DD7005887CD /* Storyboard+UIViewController.swift */,
+				96F5C6F221DF5DD7005887CD /* Nib+UIViewController.swift */,
+				96F5C6F321DF5DD7005887CD /* Reusable+UITableView.swift */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		D11F89BA21DE8E1B00E79725 /* JournalDetailViewController */ = {
@@ -156,8 +234,6 @@
 		D13D594C21CADFE5004FBEC1 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				96A883CA21DD6C370044F164 /* TabBarController.swift */,
-				96A883D121DE88350044F164 /* NavigationController.swift */,
 				D1A8A49421DD7BB400161B7A /* SettingsViewController */,
 				D1A8A48F21DD7A8800161B7A /* ResourcesViewControlller */,
 				D11F89BA21DE8E1B00E79725 /* JournalDetailViewController */,
@@ -166,6 +242,8 @@
 				D1A8A48121DD763500161B7A /* WeekTableViewController */,
 				D1A8A48421DD76BD00161B7A /* WeekDetailViewController */,
 				D1A8A48721DD786500161B7A /* PracticesCollectionViewController */,
+				96A883CA21DD6C370044F164 /* TabBarController.swift */,
+				96A883D121DE88350044F164 /* NavigationController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -386,36 +464,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1415BC921DEFEBA00908F89 /* ResourcesCollectionViewController.swift in Sources */,
+				96F5C6FD21DF5DD7005887CD /* Nib+NSViewController.swift in Sources */,
 				D1A874DE21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift in Sources */,
 				96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */,
+				96F5C70921DF5DD7005887CD /* Deprecated.swift in Sources */,
 				D11F89C121DE8E1C00E79725 /* JournalOutlineTableView.swift in Sources */,
 				EBDFE40821DEA53300A8C3D6 /* InformalTableWeek3+Convenience.swift in Sources */,
 				EBDFE40421DEA4FA00A8C3D6 /* InformalTableWeek1+Convenience.swift in Sources */,
 				D1415BCB21DEFF6800908F89 /* ResourcesCollectionViewCell.swift in Sources */,
 				EBDFE41221DEA64D00A8C3D6 /* MidwaySelfAssessment+Convenience.swift in Sources */,
+				96F5C6FE21DF5DD7005887CD /* Storyboard+NSViewController.swift in Sources */,
 				EBDFE40621DEA52700A8C3D6 /* InformalTableWeek2+Convenience.swift in Sources */,
 				D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */,
 				D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */,
 				EBDFE40E21DEA60600A8C3D6 /* InformalTableWeek6+Convenience.swift in Sources */,
+				96F5C6FF21DF5DD7005887CD /* Reusable+NSCollectionView.swift in Sources */,
+				96F5C70021DF5DD7005887CD /* Nib+NSView.swift in Sources */,
 				EBDFE41021DEA61800A8C3D6 /* InformalTableWeek7+Convenience.swift in Sources */,
 				EBDFE40221DEA4C900A8C3D6 /* GettingSatrtedQuestions+Convenience+Convenience.swift in Sources */,
 				D11F89C221DE8E1C00E79725 /* JournalOutlineTableViewCell.swift in Sources */,
 				96A883D221DE88350044F164 /* NavigationController.swift in Sources */,
 				EBDFE40021DEA49F00A8C3D6 /* FormalPracticeTable+Convenience.swift in Sources */,
+				96F5C70521DF5DD7005887CD /* Storyboard+UIViewController.swift in Sources */,
 				D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */,
+				96F5C70C21DF5DD7005887CD /* Identifier.swift in Sources */,
+				96F5C70B21DF5DD7005887CD /* Instantiatable.swift in Sources */,
 				EBDFE40C21DEA5F400A8C3D6 /* InformalTableWeek5+Convenience.swift in Sources */,
 				D11F89C021DE8E1C00E79725 /* JournalDetailViewController.swift in Sources */,
 				D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */,
 				D11F89C921DE8E5E00E79725 /* JournalTableViewCell.swift in Sources */,
+				96F5C70D21DF5DD7005887CD /* ViewLoadBeforeInject.swift in Sources */,
 				96A883D521DE9C1B0044F164 /* MBSR-App.xcdatamodeld in Sources */,
 				D11F89C721DE8E3100E79725 /* JournalEntryViewController.swift in Sources */,
+				96F5C70321DF5DD7005887CD /* Nib+UIView.swift in Sources */,
+				96F5C70421DF5DD7005887CD /* Reusable+UICollectionView.swift in Sources */,
+				96F5C70621DF5DD7005887CD /* Nib+UIViewController.swift in Sources */,
+				96F5C6FC21DF5DD7005887CD /* Reusable+NSTableView.swift in Sources */,
 				D1A8A48E21DD79BF00161B7A /* JournalTableViewController.swift in Sources */,
+				96F5C70721DF5DD7005887CD /* Reusable+UITableView.swift in Sources */,
+				96F5C70A21DF5DD7005887CD /* Injectable.swift in Sources */,
+				96F5C70821DF5DD7005887CD /* Storyboard.swift in Sources */,
 				D1A874DC21CF422000434BEB /* WeekOutlineTableView.swift in Sources */,
 				D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */,
 				D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */,
 				EBDFE40A21DEA5E500A8C3D6 /* InformalTableWeek4+Convenience.swift in Sources */,
 				D1A8A49621DD7BFD00161B7A /* SettingsViewController.swift in Sources */,
+				96F5C70121DF5DD7005887CD /* Nib.swift in Sources */,
 				D13F64BE21C6B3E8000029E9 /* CoreData.swift in Sources */,
+				96F5C70221DF5DD7005887CD /* Reusable.swift in Sources */,
 				D178E8C121CAF1020060B038 /* WeekTableViewController.swift in Sources */,
 				D11F89D421DECC9700E79725 /* PracticesCollectionViewCell.swift in Sources */,
 				EBDFE3FE21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift in Sources */,
