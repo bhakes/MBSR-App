@@ -75,7 +75,7 @@ class MSBRContent {
         // Raisin Meditation
         Practice(title: "Raisin Meditation",
                  subtitle: nil,
-                 contentColor: UIColor(hexString: "8C1A6A") ?? .clear,
+                 contentColor: UIColor(hexString: "5E335E") ?? .clear,
                  contentType: .video,
                  publisher: "Dave Potter",
                  author: nil,
@@ -86,7 +86,7 @@ class MSBRContent {
         // The Body Scan Meditation
         Practice(title: "The Body Scan Meditation",
                  subtitle: nil,
-                 contentColor: UIColor(hexString: "3F88C5") ?? .clear,
+                 contentColor: UIColor(hexString: "33495E") ?? .clear,
                  contentType: .article,
                  publisher: nil,
                  author: "Jon Kabat-Zinn",
@@ -108,7 +108,7 @@ class MSBRContent {
         // Mindful Yoga 1
         Practice(title: "Mindful Yoga 1",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: UIColor(hexString: "A6C63B") ?? .clear,
                  contentType: .video,
                  publisher: "Lynn Rossy",
                  author: nil,
@@ -119,7 +119,7 @@ class MSBRContent {
         // Mindful Yoga 2
         Practice(title: "Mindful Yoga 2",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: UIColor(hexString: "335E40") ?? .clear,
                  contentType: .video,
                  publisher: "Lynn Rossy",
                  author: nil,
@@ -130,7 +130,7 @@ class MSBRContent {
         // Turning Towards... Physical
         Practice(title: "Turning Towards... Physical",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: UIColor(hexString: "E84D3C") ?? .clear,
                  contentType: .video,
                  publisher: "Palouse Mindfulness",
                  author: nil,
@@ -141,7 +141,7 @@ class MSBRContent {
         // Turning Towards... Emotions
         Practice(title: "Turning Towards... Emotions",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: UIColor(hexString: "FFCC02") ?? .clear,
                  contentType: .video,
                  publisher: "Palouse Mindfulness",
                  author: nil,
@@ -152,7 +152,7 @@ class MSBRContent {
         // Mountain Meditation
         Practice(title: "Mountain Meditation",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: UIColor(hexString: "5E4433") ?? .clear,
                  contentType: .video,
                  publisher: "Palouse Mindfulness",
                  author: nil,
@@ -163,7 +163,7 @@ class MSBRContent {
         // Lake Meditation
         Practice(title: "Lake Meditation",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: UIColor(hexString: "3A7082") ?? .clear,
                  contentType: .video,
                  publisher: "Palouse Mindfulness",
                  author: nil,
@@ -174,7 +174,7 @@ class MSBRContent {
         // Soften, Soothe, Allow Meditation
         Practice(title: "Soften, Soothe, Allow Meditation",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: UIColor(hexString: "A6C63B") ?? .clear,
                  contentType: .audio,
                  publisher: "Palouse Mindfulness",
                  author: nil,
@@ -185,7 +185,7 @@ class MSBRContent {
         // Rain Meditation
         Practice(title: "Rain Meditation",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: UIColor(hexString: "B8C9F2") ?? .clear,
                  contentType: .audio,
                  publisher: "Palouse Mindfulness",
                  author: nil,
@@ -196,7 +196,7 @@ class MSBRContent {
         // 30-Minute Silent Meditation
         Practice(title: "30-Minute Silent Meditation",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: .darkGray,
                  contentType: .audio,
                  publisher: "Palouse Mindfulness",
                  author: nil,
@@ -207,7 +207,7 @@ class MSBRContent {
         // 20-Minute Silent Meditation
         Practice(title: "20-Minute Silent Meditation",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: .gray,
                  contentType: .audio,
                  publisher: "Palouse Mindfulness",
                  author: nil,
@@ -218,7 +218,7 @@ class MSBRContent {
         // 15-Minute Silent Meditation
         Practice(title: "15-Minute Silent Meditation",
                  subtitle: nil,
-                 contentColor: RandomFlatColorWithShade(.light),
+                 contentColor: .lightGray,
                  contentType: .audio,
                  publisher: "Palouse Mindfulness",
                  author: nil,
