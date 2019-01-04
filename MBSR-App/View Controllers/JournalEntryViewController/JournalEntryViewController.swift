@@ -12,9 +12,9 @@ class JournalEntryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
+    
+    
     @IBOutlet weak var q1TextLabel: UILabel!
     @IBOutlet weak var q1TextView: UITextView!
     @IBOutlet weak var q2TextLabel: UILabel!

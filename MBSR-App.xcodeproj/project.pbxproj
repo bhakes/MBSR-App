@@ -215,6 +215,7 @@
 				D13F64A521C5A027000029E9 /* AppDelegate.swift */,
 				D1A874DD21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift */,
 				D13F64A921C5A027000029E9 /* Main.storyboard */,
+				EB1844B021DED4F2004E5B5A /* Model Controller */,
 				D13D594D21CADFF4004FBEC1 /* Model */,
 				D13D594C21CADFE5004FBEC1 /* View Controllers */,
 				96A883CC21DD6F5C0044F164 /* Extensions+Utilities */,
@@ -281,6 +282,13 @@
 				D1A8A49721DD7C1000161B7A /* SettingsViewController.storyboard */,
 			);
 			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		EB1844B021DED4F2004E5B5A /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
