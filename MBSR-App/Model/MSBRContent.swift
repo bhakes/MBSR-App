@@ -69,6 +69,28 @@ class MSBRContent {
         ],
     ]
     
+    let resources: [Resources] = [
+    
+        // Books
+        Resources(title: "Books",
+                 resourceColor: UIColor(hexString: "5E335E") ?? .clear),
+        
+        Resources(title: "Research",
+                 resourceColor: UIColor(hexString: "33495E") ?? .clear),
+        
+        Resources(title: "Mindfulness Training",
+                  resourceColor: UIColor(hexString: "3F88C5") ?? .clear),
+        
+        Resources(title: "Graduate Readings",
+                  resourceColor: UIColor(hexString: "A6C63B") ?? .clear),
+        
+        Resources(title: "Retreats",
+                  resourceColor: UIColor(hexString: "335E40") ?? .clear),
+        
+        Resources(title: "Meditation Groups",
+                  resourceColor: UIColor(hexString: "E84D3C") ?? .clear)
+    
+    ]
     
     var practices: [Practice] = [
         
@@ -1544,6 +1566,19 @@ struct Practice {
         self.timeLength = timeLength
         self.url = URL(string: url)!
         self.viewed = viewed
+    }
+}
+
+// Practice struct & initializer
+struct Resources {
+    
+    let title: String
+    let resourceColor: UIColor
+    
+    init(title: String, resourceColor: UIColor) {
+        
+        self.title = title
+        self.resourceColor = resourceColor
     }
 }
 

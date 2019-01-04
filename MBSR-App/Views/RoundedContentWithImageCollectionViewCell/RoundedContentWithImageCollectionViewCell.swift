@@ -42,10 +42,10 @@ class RoundedContentWithImageCollectionViewCell: UICollectionViewCell {
     
     @IBAction func cellButtonClicked(_ sender: Any) {
         
-        guard let practice = practice else {fatalError("unable to access practice")}
+        if let practice = practice {
         
-        guard let delegateVariable = delegateVariable else {fatalError("unable to access delegate")}
-        delegateVariable.linkToURL(with: practice.url)
-        
+            guard let delegateVariable = delegateVariable else {fatalError("unable to access delegate")}
+            delegateVariable.linkToURL(with: practice.url)
+        }
     }
 }
