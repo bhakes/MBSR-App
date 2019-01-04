@@ -79,6 +79,7 @@
 		D1A8A49321DD7B1400161B7A /* ResourcesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8A49221DD7B1400161B7A /* ResourcesViewController.storyboard */; };
 		D1A8A49621DD7BFD00161B7A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A8A49521DD7BFD00161B7A /* SettingsViewController.swift */; };
 		D1A8A49821DD7C1000161B7A /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8A49721DD7C1000161B7A /* SettingsViewController.storyboard */; };
+		D1F4AC4B21DFC667007283A6 /* PracticesCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4AC4A21DFC667007283A6 /* PracticesCellDelegate.swift */; };
 		EBDFE3FE21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE3FD21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift */; };
 		EBDFE40021DEA49F00A8C3D6 /* FormalPracticeTable+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE3FF21DEA49F00A8C3D6 /* FormalPracticeTable+Convenience.swift */; };
 		EBDFE40221DEA4C900A8C3D6 /* GettingSatrtedQuestions+Convenience+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDFE40121DEA4C900A8C3D6 /* GettingSatrtedQuestions+Convenience+Convenience.swift */; };
@@ -184,6 +185,7 @@
 		D1A8A49221DD7B1400161B7A /* ResourcesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResourcesViewController.storyboard; sourceTree = "<group>"; };
 		D1A8A49521DD7BFD00161B7A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D1A8A49721DD7C1000161B7A /* SettingsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
+		D1F4AC4A21DFC667007283A6 /* PracticesCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesCellDelegate.swift; sourceTree = "<group>"; };
 		EBDFE3FD21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CourseSummary+Convenience.swift"; sourceTree = "<group>"; };
 		EBDFE3FF21DEA49F00A8C3D6 /* FormalPracticeTable+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormalPracticeTable+Convenience.swift"; sourceTree = "<group>"; };
 		EBDFE40121DEA4C900A8C3D6 /* GettingSatrtedQuestions+Convenience+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GettingSatrtedQuestions+Convenience+Convenience.swift"; sourceTree = "<group>"; };
@@ -427,6 +429,7 @@
 			isa = PBXGroup;
 			children = (
 				D13F64A521C5A027000029E9 /* AppDelegate.swift */,
+				D1F4AC4A21DFC667007283A6 /* PracticesCellDelegate.swift */,
 				D1A874DD21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift */,
 				D13F64A921C5A027000029E9 /* Main.storyboard */,
 				EB1844B021DED4F2004E5B5A /* Model Controller */,
@@ -594,6 +597,7 @@
 				D1415BC921DEFEBA00908F89 /* ResourcesCollectionViewController.swift in Sources */,
 				96F5C6FD21DF5DD7005887CD /* Nib+NSViewController.swift in Sources */,
 				D1A874DE21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift in Sources */,
+				D1F4AC4B21DFC667007283A6 /* PracticesCellDelegate.swift in Sources */,
 				96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */,
 				96F5C70921DF5DD7005887CD /* Deprecated.swift in Sources */,
 				96F5C7D421DF61CF005887CD /* UIViewController+Chameleon.m in Sources */,

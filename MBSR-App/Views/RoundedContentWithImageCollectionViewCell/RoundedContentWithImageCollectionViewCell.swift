@@ -10,6 +10,8 @@ import UIKit
 
 class RoundedContentWithImageCollectionViewCell: UICollectionViewCell {
     
+    var practice: Practice?
+    weak var delegateVariable: PracticesCellDelegate?
     override func awakeFromNib() {
         super.awakeFromNib()
         updateViews()
@@ -38,4 +40,12 @@ class RoundedContentWithImageCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var roundedGradientView: UIView!
     @IBOutlet weak var label: UIButton!
     
+    @IBAction func cellButtonClicked(_ sender: Any) {
+        
+        guard let practice = practice else {fatalError("unable to access practice")}
+        
+        guard let delegateVariable = delegateVariable else {fatalError("unable to access delegate")}
+        delegateVariable.linkToURL(with: practice.url)
+        
+    }
 }

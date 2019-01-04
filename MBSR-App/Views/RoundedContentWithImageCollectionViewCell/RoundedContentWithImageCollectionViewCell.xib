@@ -29,6 +29,9 @@
                                 <state key="normal" title="I am a label. I am not really a label, I am a button in disguise.">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="cellButtonClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Gcr-D3-LDk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

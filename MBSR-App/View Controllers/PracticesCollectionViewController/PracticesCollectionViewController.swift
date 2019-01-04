@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import SafariServices
 
-class PracticesCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+class PracticesCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, PracticesCellDelegate {
     
     // MARK:- View lifecycle methods
     
@@ -30,10 +31,15 @@ class PracticesCollectionViewController: UICollectionViewController, UICollectio
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RoundedContentWithImageCollectionViewCell.reuseIdentifier, for: indexPath) as? RoundedContentWithImageCollectionViewCell else { return UICollectionViewCell() }
         
+        // set delegate
+        cell.delegateVariable = self
+        
+        // format cell
         let practice = MSBRContent.shared.practices[indexPath.row]
+        cell.practice = practice
         cell.labelText = practice.title
         cell.gradientPrimaryColor = practice.contentColor
-
+        
 //        if let image = MSBRContent.shared.practices[indexPath.row]["image"] as? String {
 //            cell.imageView.image = UIImage(named: image)
 //        }
@@ -41,6 +47,12 @@ class PracticesCollectionViewController: UICollectionViewController, UICollectio
         return cell
     }
     
+    // MARK: - Collection View Delegate Methods
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+        linkToURL(with: MSBRContent.shared.practices[indexPath.row].url)
+    }
     
     // MARK:- DelegateFlowLayout methods
     
@@ -61,4 +73,14 @@ class PracticesCollectionViewController: UICollectionViewController, UICollectio
         let itemHeight = itemWidth
         return CGSize(width: itemWidth, height: itemHeight)
     }
+    
+    // Mark: - Helper Methods
+    
+    func linkToURL(with url: URL) {
+        
+        let svc = SFSafariViewController(url: url)
+        present(svc, animated: true, completion: nil)
+        
+    }
+
 }
