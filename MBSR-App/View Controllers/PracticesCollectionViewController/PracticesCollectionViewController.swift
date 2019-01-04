@@ -8,14 +8,15 @@
 
 import UIKit
 
-class PracticesCollectionViewController: UICollectionViewController {
+class PracticesCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     // MARK:- View lifecycle methods
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView.register(UINib(nibName: "PracticesCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "practicesCell")
+        collectionView.contentInset = UIEdgeInsets(top: 10, left: 8, bottom: 16, right: 8)
+        collectionView.register(UINib(nibName: "RoundedContentWithImageCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "RoundedContentWithImage")
     }
     
     
@@ -27,20 +28,37 @@ class PracticesCollectionViewController: UICollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PracticesCollectionViewCell.reuseIdentifier, for: indexPath) as! PracticesCollectionViewCell
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RoundedContentWithImageCollectionViewCell.reuseIdentifier, for: indexPath) as? RoundedContentWithImageCollectionViewCell else { return UICollectionViewCell() }
         
-        if let textLabelString = MSBRContent.shared.practices[indexPath.row]["title"] as? String {
-            cell.titleLabel.text = textLabelString
-        }
-        
-        if let image = MSBRContent.shared.practices[indexPath.row]["image"] as? String {
-            cell.imageView.image = UIImage(named: image)
-        }
+        let practice = MSBRContent.shared.practices[indexPath.row]
+        cell.labelText = practice.title
+        cell.gradientPrimaryColor = practice.contentColor
+
+//        if let image = MSBRContent.shared.practices[indexPath.row]["image"] as? String {
+//            cell.imageView.image = UIImage(named: image)
+//        }
         
         return cell
     }
     
     
-    // MARK:- UICollectionViewDelegate
+    // MARK:- DelegateFlowLayout methods
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let itemWidth = collectionView.frame.width / 2.1
+        let itemHeight = itemWidth
+        return CGSize(width: itemWidth, height: itemHeight)
+    }
 }

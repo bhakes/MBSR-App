@@ -8,6 +8,11 @@
 
 import UIKit
 
+// MARK:- Gradient Helper
+func gradient(from color: UIColor, frame: CGRect) -> UIColor {
+    return GradientColor(.topToBottom, frame: frame, colors: [color.lighten(byPercentage: 0.1) ?? UIColor.clear, color, color.darken(byPercentage: 0.05) ?? UIColor.clear])
+}
+
 // MARK:- DispatchQueue Helpers
 func background(_ block: @escaping () -> Void) {
     DispatchQueue.global(qos: .userInteractive).async(execute: block)

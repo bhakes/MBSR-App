@@ -20,8 +20,10 @@ class TabBarController: UITabBarController {
         tabBar.shadowImage = UIImage()
         tabBar.backgroundImage = UIImage.init(color: UIColor.white)
         
-        tabBar.layer.shadowRadius = 12
-        tabBar.layer.shadowOpacity = 0.15
+        tabBar.isTranslucent = false
+        
+        tabBar.layer.shadowRadius = 10
+        tabBar.layer.shadowOpacity = 0.18
     }
     
 }

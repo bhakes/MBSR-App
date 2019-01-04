@@ -15,15 +15,18 @@ class NavigationController: UINavigationController {
         setup()
     }
     
-    // Setup function
+    // Setup method
     private func setup() {
         navigationBar.prefersLargeTitles = true
         
-        navigationBar.shadowImage = UIImage()
-        navigationBar.backgroundColor = UIColor.white
+        navigationBar.isTranslucent = true
+        navigationBar.barTintColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.99)
         
-        navigationBar.layer.shadowRadius = 12
-        navigationBar.layer.shadowOpacity = 0.2
+        navigationBar.shadowImage = UIImage()
+        //navigationBar.backgroundColor = UIColor.white
+        
+        navigationBar.layer.shadowRadius = 14
+        navigationBar.layer.shadowOpacity = 0.24
     }
     
 }

@@ -29,6 +29,22 @@
 		96F5C70B21DF5DD7005887CD /* Instantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F721DF5DD7005887CD /* Instantiatable.swift */; };
 		96F5C70C21DF5DD7005887CD /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F821DF5DD7005887CD /* Identifier.swift */; };
 		96F5C70D21DF5DD7005887CD /* ViewLoadBeforeInject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C6F921DF5DD7005887CD /* ViewLoadBeforeInject.swift */; };
+		96F5C70F21DF5E8C005887CD /* Instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C70E21DF5E8C005887CD /* Instantiate.swift */; };
+		96F5C7CA21DF61CF005887CD /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7AD21DF61CF005887CD /* ChameleonShorthand.swift */; };
+		96F5C7CB21DF61CF005887CD /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7B021DF61CF005887CD /* UIColor+ChameleonPrivate.m */; };
+		96F5C7CC21DF61CF005887CD /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7B121DF61CF005887CD /* ChameleonConstants.m */; };
+		96F5C7CD21DF61CF005887CD /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7B521DF61CF005887CD /* UIColor+Chameleon.m */; };
+		96F5C7CE21DF61CF005887CD /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7B721DF61CF005887CD /* UIButton+Chameleon.m */; };
+		96F5C7CF21DF61CF005887CD /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7BC21DF61CF005887CD /* UIView+ChameleonPrivate.m */; };
+		96F5C7D021DF61CF005887CD /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7BD21DF61CF005887CD /* Chameleon_.m */; };
+		96F5C7D121DF61CF005887CD /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7C021DF61CF005887CD /* NSArray+Chameleon.m */; };
+		96F5C7D221DF61CF005887CD /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7C221DF61CF005887CD /* UINavigationController+Chameleon.m */; };
+		96F5C7D321DF61CF005887CD /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7C321DF61CF005887CD /* UILabel+Chameleon.m */; };
+		96F5C7D421DF61CF005887CD /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7C421DF61CF005887CD /* UIViewController+Chameleon.m */; };
+		96F5C7D521DF61CF005887CD /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7C521DF61CF005887CD /* UIAppearance+Swift.m */; };
+		96F5C7D621DF61CF005887CD /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7C621DF61CF005887CD /* UIImage+ChameleonPrivate.m */; };
+		96F5C7DB21DF6640005887CD /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7DA21DF6640005887CD /* Helpers.swift */; };
+		96F5C7DD21DF670F005887CD /* RoundedContentWithImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5C7DC21DF670F005887CD /* RoundedContentWithImageCollectionViewCell.swift */; };
 		D11F89BF21DE8E1C00E79725 /* JournalDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11F89BB21DE8E1B00E79725 /* JournalDetailViewController.storyboard */; };
 		D11F89C021DE8E1C00E79725 /* JournalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89BC21DE8E1B00E79725 /* JournalDetailViewController.swift */; };
 		D11F89C121DE8E1C00E79725 /* JournalOutlineTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89BD21DE8E1B00E79725 /* JournalOutlineTableView.swift */; };
@@ -36,8 +52,7 @@
 		D11F89C621DE8E3100E79725 /* JournalEntryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11F89C421DE8E3100E79725 /* JournalEntryViewController.storyboard */; };
 		D11F89C721DE8E3100E79725 /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89C521DE8E3100E79725 /* JournalEntryViewController.swift */; };
 		D11F89C921DE8E5E00E79725 /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89C821DE8E5E00E79725 /* JournalTableViewCell.swift */; };
-		D11F89D421DECC9700E79725 /* PracticesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89D221DECC9700E79725 /* PracticesCollectionViewCell.swift */; };
-		D11F89D521DECC9700E79725 /* PracticesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D11F89D321DECC9700E79725 /* PracticesCollectionViewCell.xib */; };
+		D11F89D521DECC9700E79725 /* RoundedContentWithImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D11F89D321DECC9700E79725 /* RoundedContentWithImageCollectionViewCell.xib */; };
 		D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */; };
 		D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */; };
 		D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D594F21CAE9B7004FBEC1 /* MBSR.swift */; };
@@ -100,6 +115,39 @@
 		96F5C6F721DF5DD7005887CD /* Instantiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiatable.swift; sourceTree = "<group>"; };
 		96F5C6F821DF5DD7005887CD /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 		96F5C6F921DF5DD7005887CD /* ViewLoadBeforeInject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLoadBeforeInject.swift; sourceTree = "<group>"; };
+		96F5C70E21DF5E8C005887CD /* Instantiate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instantiate.swift; sourceTree = "<group>"; };
+		96F5C7A821DF61BC005887CD /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		96F5C7AD21DF61CF005887CD /* ChameleonShorthand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChameleonShorthand.swift; sourceTree = "<group>"; };
+		96F5C7AF21DF61CF005887CD /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		96F5C7B021DF61CF005887CD /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		96F5C7B121DF61CF005887CD /* ChameleonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChameleonConstants.m; sourceTree = "<group>"; };
+		96F5C7B221DF61CF005887CD /* UILabel+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		96F5C7B321DF61CF005887CD /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		96F5C7B421DF61CF005887CD /* Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon.h; sourceTree = "<group>"; };
+		96F5C7B521DF61CF005887CD /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		96F5C7B621DF61CF005887CD /* NSArray+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		96F5C7B721DF61CF005887CD /* UIButton+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		96F5C7B821DF61CF005887CD /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		96F5C7B921DF61CF005887CD /* UIAppearance+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		96F5C7BA21DF61CF005887CD /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		96F5C7BB21DF61CF005887CD /* ChameleonEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonEnums.h; sourceTree = "<group>"; };
+		96F5C7BC21DF61CF005887CD /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		96F5C7BD21DF61CF005887CD /* Chameleon_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chameleon_.m; sourceTree = "<group>"; };
+		96F5C7BE21DF61CF005887CD /* ChameleonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonConstants.h; sourceTree = "<group>"; };
+		96F5C7BF21DF61CF005887CD /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		96F5C7C021DF61CF005887CD /* NSArray+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		96F5C7C121DF61CF005887CD /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		96F5C7C221DF61CF005887CD /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		96F5C7C321DF61CF005887CD /* UILabel+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		96F5C7C421DF61CF005887CD /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		96F5C7C521DF61CF005887CD /* UIAppearance+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		96F5C7C621DF61CF005887CD /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		96F5C7C721DF61CF005887CD /* UIButton+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		96F5C7C821DF61CF005887CD /* Chameleon_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chameleon_.h; sourceTree = "<group>"; };
+		96F5C7C921DF61CF005887CD /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		96F5C7D721DF6294005887CD /* MBSR-App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBSR-App-Bridging-Header.h"; sourceTree = "<group>"; };
+		96F5C7DA21DF6640005887CD /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		96F5C7DC21DF670F005887CD /* RoundedContentWithImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedContentWithImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		D11F89BB21DE8E1B00E79725 /* JournalDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JournalDetailViewController.storyboard; sourceTree = "<group>"; };
 		D11F89BC21DE8E1B00E79725 /* JournalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalDetailViewController.swift; sourceTree = "<group>"; };
 		D11F89BD21DE8E1B00E79725 /* JournalOutlineTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalOutlineTableView.swift; sourceTree = "<group>"; };
@@ -107,8 +155,7 @@
 		D11F89C421DE8E3100E79725 /* JournalEntryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JournalEntryViewController.storyboard; sourceTree = "<group>"; };
 		D11F89C521DE8E3100E79725 /* JournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
 		D11F89C821DE8E5E00E79725 /* JournalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
-		D11F89D221DECC9700E79725 /* PracticesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesCollectionViewCell.swift; sourceTree = "<group>"; };
-		D11F89D321DECC9700E79725 /* PracticesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PracticesCollectionViewCell.xib; sourceTree = "<group>"; };
+		D11F89D321DECC9700E79725 /* RoundedContentWithImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoundedContentWithImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewCell.swift; sourceTree = "<group>"; };
 		D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesCollectionViewController.swift; sourceTree = "<group>"; };
 		D13D594F21CAE9B7004FBEC1 /* MBSR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSR.swift; sourceTree = "<group>"; };
@@ -164,8 +211,11 @@
 		96A883CC21DD6F5C0044F164 /* Extensions+Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				96F5C6E521DF5DD7005887CD /* Instantiate */,
+				96F5C7DA21DF6640005887CD /* Helpers.swift */,
 				96A883CD21DD6F7D0044F164 /* UIImage.swift */,
+				96F5C7A721DF61BC005887CD /* Chameleon */,
+				96F5C70E21DF5E8C005887CD /* Instantiate.swift */,
+				96F5C6E521DF5DD7005887CD /* Instantiate */,
 			);
 			path = "Extensions+Utilities";
 			sourceTree = "<group>";
@@ -209,6 +259,84 @@
 				96F5C6F321DF5DD7005887CD /* Reusable+UITableView.swift */,
 			);
 			path = iOS;
+			sourceTree = "<group>";
+		};
+		96F5C7A721DF61BC005887CD /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				96F5C7AB21DF61CF005887CD /* Classes */,
+				96F5C7D721DF6294005887CD /* MBSR-App-Bridging-Header.h */,
+				96F5C7A821DF61BC005887CD /* Chameleon.h */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		96F5C7AB21DF61CF005887CD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96F5C7AC21DF61CF005887CD /* Swift */,
+				96F5C7AE21DF61CF005887CD /* Objective-C */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		96F5C7AC21DF61CF005887CD /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				96F5C7AD21DF61CF005887CD /* ChameleonShorthand.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		96F5C7AE21DF61CF005887CD /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				96F5C7AF21DF61CF005887CD /* ChameleonMacros.h */,
+				96F5C7B021DF61CF005887CD /* UIColor+ChameleonPrivate.m */,
+				96F5C7B121DF61CF005887CD /* ChameleonConstants.m */,
+				96F5C7B221DF61CF005887CD /* UILabel+Chameleon.h */,
+				96F5C7B321DF61CF005887CD /* UINavigationController+Chameleon.h */,
+				96F5C7B421DF61CF005887CD /* Chameleon.h */,
+				96F5C7B521DF61CF005887CD /* UIColor+Chameleon.m */,
+				96F5C7B621DF61CF005887CD /* NSArray+Chameleon.h */,
+				96F5C7B721DF61CF005887CD /* UIButton+Chameleon.m */,
+				96F5C7B821DF61CF005887CD /* UIImage+ChameleonPrivate.h */,
+				96F5C7B921DF61CF005887CD /* UIAppearance+Swift.h */,
+				96F5C7BA21DF61CF005887CD /* UIViewController+Chameleon.h */,
+				96F5C7BB21DF61CF005887CD /* ChameleonEnums.h */,
+				96F5C7BC21DF61CF005887CD /* UIView+ChameleonPrivate.m */,
+				96F5C7BD21DF61CF005887CD /* Chameleon_.m */,
+				96F5C7BE21DF61CF005887CD /* ChameleonConstants.h */,
+				96F5C7BF21DF61CF005887CD /* UIColor+ChameleonPrivate.h */,
+				96F5C7C021DF61CF005887CD /* NSArray+Chameleon.m */,
+				96F5C7C121DF61CF005887CD /* UIColor+Chameleon.h */,
+				96F5C7C221DF61CF005887CD /* UINavigationController+Chameleon.m */,
+				96F5C7C321DF61CF005887CD /* UILabel+Chameleon.m */,
+				96F5C7C421DF61CF005887CD /* UIViewController+Chameleon.m */,
+				96F5C7C521DF61CF005887CD /* UIAppearance+Swift.m */,
+				96F5C7C621DF61CF005887CD /* UIImage+ChameleonPrivate.m */,
+				96F5C7C721DF61CF005887CD /* UIButton+Chameleon.h */,
+				96F5C7C821DF61CF005887CD /* Chameleon_.h */,
+				96F5C7C921DF61CF005887CD /* UIView+ChameleonPrivate.h */,
+			);
+			path = "Objective-C";
+			sourceTree = "<group>";
+		};
+		96F5C7DE21DF6804005887CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96F5C7DF21DF680C005887CD /* RoundedContentWithImageCollectionViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96F5C7DF21DF680C005887CD /* RoundedContentWithImageCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				96F5C7DC21DF670F005887CD /* RoundedContentWithImageCollectionViewCell.swift */,
+				D11F89D321DECC9700E79725 /* RoundedContentWithImageCollectionViewCell.xib */,
+			);
+			path = RoundedContentWithImageCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		D11F89BA21DE8E1B00E79725 /* JournalDetailViewController */ = {
@@ -304,6 +432,7 @@
 				EB1844B021DED4F2004E5B5A /* Model Controller */,
 				D13D594D21CADFF4004FBEC1 /* Model */,
 				D13D594C21CADFE5004FBEC1 /* View Controllers */,
+				96F5C7DE21DF6804005887CD /* Views */,
 				96A883CC21DD6F5C0044F164 /* Extensions+Utilities */,
 				D13D594E21CAE028004FBEC1 /* Resources */,
 				D13F64AF21C5A028000029E9 /* Assets.xcassets */,
@@ -338,8 +467,6 @@
 			children = (
 				D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */,
 				D1A8A48921DD790B00161B7A /* PracticesCollectionViewController.storyboard */,
-				D11F89D221DECC9700E79725 /* PracticesCollectionViewCell.swift */,
-				D11F89D321DECC9700E79725 /* PracticesCollectionViewCell.xib */,
 			);
 			path = PracticesCollectionViewController;
 			sourceTree = "<group>";
@@ -413,6 +540,7 @@
 				TargetAttributes = {
 					D13F64A121C5A027000029E9 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -444,7 +572,7 @@
 				D1415BCD21DF159100908F89 /* ResourcesCollectionViewCell.xib in Resources */,
 				D1A8A48621DD770C00161B7A /* WeekDetailViewController.storyboard in Resources */,
 				D1A8A49821DD7C1000161B7A /* SettingsViewController.storyboard in Resources */,
-				D11F89D521DECC9700E79725 /* PracticesCollectionViewCell.xib in Resources */,
+				D11F89D521DECC9700E79725 /* RoundedContentWithImageCollectionViewCell.xib in Resources */,
 				D13F64B321C5A028000029E9 /* LaunchScreen.storyboard in Resources */,
 				D13F64B021C5A028000029E9 /* Assets.xcassets in Resources */,
 				D13F64AB21C5A027000029E9 /* Main.storyboard in Resources */,
@@ -468,22 +596,29 @@
 				D1A874DE21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift in Sources */,
 				96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */,
 				96F5C70921DF5DD7005887CD /* Deprecated.swift in Sources */,
+				96F5C7D421DF61CF005887CD /* UIViewController+Chameleon.m in Sources */,
 				D11F89C121DE8E1C00E79725 /* JournalOutlineTableView.swift in Sources */,
 				EBDFE40821DEA53300A8C3D6 /* InformalTableWeek3+Convenience.swift in Sources */,
 				EBDFE40421DEA4FA00A8C3D6 /* InformalTableWeek1+Convenience.swift in Sources */,
 				D1415BCB21DEFF6800908F89 /* ResourcesCollectionViewCell.swift in Sources */,
+				96F5C7CE21DF61CF005887CD /* UIButton+Chameleon.m in Sources */,
 				EBDFE41221DEA64D00A8C3D6 /* MidwaySelfAssessment+Convenience.swift in Sources */,
 				96F5C6FE21DF5DD7005887CD /* Storyboard+NSViewController.swift in Sources */,
 				EBDFE40621DEA52700A8C3D6 /* InformalTableWeek2+Convenience.swift in Sources */,
 				D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */,
+				96F5C7D021DF61CF005887CD /* Chameleon_.m in Sources */,
 				D13F64A621C5A027000029E9 /* AppDelegate.swift in Sources */,
 				EBDFE40E21DEA60600A8C3D6 /* InformalTableWeek6+Convenience.swift in Sources */,
 				96F5C6FF21DF5DD7005887CD /* Reusable+NSCollectionView.swift in Sources */,
 				96F5C70021DF5DD7005887CD /* Nib+NSView.swift in Sources */,
 				EBDFE41021DEA61800A8C3D6 /* InformalTableWeek7+Convenience.swift in Sources */,
+				96F5C7CC21DF61CF005887CD /* ChameleonConstants.m in Sources */,
+				96F5C70F21DF5E8C005887CD /* Instantiate.swift in Sources */,
 				EBDFE40221DEA4C900A8C3D6 /* GettingSatrtedQuestions+Convenience+Convenience.swift in Sources */,
+				96F5C7D121DF61CF005887CD /* NSArray+Chameleon.m in Sources */,
 				D11F89C221DE8E1C00E79725 /* JournalOutlineTableViewCell.swift in Sources */,
 				96A883D221DE88350044F164 /* NavigationController.swift in Sources */,
+				96F5C7DB21DF6640005887CD /* Helpers.swift in Sources */,
 				EBDFE40021DEA49F00A8C3D6 /* FormalPracticeTable+Convenience.swift in Sources */,
 				96F5C70521DF5DD7005887CD /* Storyboard+UIViewController.swift in Sources */,
 				D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */,
@@ -492,19 +627,27 @@
 				EBDFE40C21DEA5F400A8C3D6 /* InformalTableWeek5+Convenience.swift in Sources */,
 				D11F89C021DE8E1C00E79725 /* JournalDetailViewController.swift in Sources */,
 				D1A874DA21CF280900434BEB /* MSBRContent.swift in Sources */,
+				96F5C7D521DF61CF005887CD /* UIAppearance+Swift.m in Sources */,
 				D11F89C921DE8E5E00E79725 /* JournalTableViewCell.swift in Sources */,
+				96F5C7D321DF61CF005887CD /* UILabel+Chameleon.m in Sources */,
+				96F5C7DD21DF670F005887CD /* RoundedContentWithImageCollectionViewCell.swift in Sources */,
 				96F5C70D21DF5DD7005887CD /* ViewLoadBeforeInject.swift in Sources */,
 				96A883D521DE9C1B0044F164 /* MBSR-App.xcdatamodeld in Sources */,
 				D11F89C721DE8E3100E79725 /* JournalEntryViewController.swift in Sources */,
 				96F5C70321DF5DD7005887CD /* Nib+UIView.swift in Sources */,
 				96F5C70421DF5DD7005887CD /* Reusable+UICollectionView.swift in Sources */,
 				96F5C70621DF5DD7005887CD /* Nib+UIViewController.swift in Sources */,
+				96F5C7CD21DF61CF005887CD /* UIColor+Chameleon.m in Sources */,
 				96F5C6FC21DF5DD7005887CD /* Reusable+NSTableView.swift in Sources */,
+				96F5C7D621DF61CF005887CD /* UIImage+ChameleonPrivate.m in Sources */,
+				96F5C7CA21DF61CF005887CD /* ChameleonShorthand.swift in Sources */,
 				D1A8A48E21DD79BF00161B7A /* JournalTableViewController.swift in Sources */,
 				96F5C70721DF5DD7005887CD /* Reusable+UITableView.swift in Sources */,
 				96F5C70A21DF5DD7005887CD /* Injectable.swift in Sources */,
 				96F5C70821DF5DD7005887CD /* Storyboard.swift in Sources */,
 				D1A874DC21CF422000434BEB /* WeekOutlineTableView.swift in Sources */,
+				96F5C7CF21DF61CF005887CD /* UIView+ChameleonPrivate.m in Sources */,
+				96F5C7CB21DF61CF005887CD /* UIColor+ChameleonPrivate.m in Sources */,
 				D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */,
 				D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */,
 				EBDFE40A21DEA5E500A8C3D6 /* InformalTableWeek4+Convenience.swift in Sources */,
@@ -513,8 +656,8 @@
 				D13F64BE21C6B3E8000029E9 /* CoreData.swift in Sources */,
 				96F5C70221DF5DD7005887CD /* Reusable.swift in Sources */,
 				D178E8C121CAF1020060B038 /* WeekTableViewController.swift in Sources */,
-				D11F89D421DECC9700E79725 /* PracticesCollectionViewCell.swift in Sources */,
 				EBDFE3FE21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift in Sources */,
+				96F5C7D221DF61CF005887CD /* UINavigationController+Chameleon.m in Sources */,
 				D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */,
 				96A883CE21DD6F7D0044F164 /* UIImage.swift in Sources */,
 			);
@@ -588,6 +731,7 @@
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -643,6 +787,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -662,6 +807,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LHTMK9AWG;
 				INFOPLIST_FILE = "MBSR-App/Info.plist";
@@ -672,8 +818,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mettabits.MBSR-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MBSR-App/Extensions+Utilities/Chameleon/MBSR-App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -681,6 +829,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7LHTMK9AWG;
 				INFOPLIST_FILE = "MBSR-App/Info.plist";
@@ -691,8 +840,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mettabits.MBSR-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MBSR-App/Extensions+Utilities/Chameleon/MBSR-App-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
