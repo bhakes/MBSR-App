@@ -191,7 +191,7 @@ class MSBRContent {
                  author: nil,
                  estReadingTime: nil,
                  timeLength: 15,
-                 url: "https://palousemindfulness.com/disks/soften-soothe-allow.mp3"),
+                 url: "https://palousemindfulness.com/disks/RAIN.mp3"),
         
         // 30-Minute Silent Meditation
         Practice(title: "30-Minute Silent Meditation",
