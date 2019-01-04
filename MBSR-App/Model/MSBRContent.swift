@@ -103,7 +103,7 @@ class MSBRContent {
                  author: "Jon Kabat-Zinn",
                  estReadingTime: 13,
                  timeLength: nil,
-                 url: "https://palousemindfulness.com/docs/sittingmeditation.pdf"),
+                 url: "https://www.youtube.com/watch?v=XRhqFWio3U0&index=1&list=PLbiVpU59JkVaFMGi0A8Im_hfSh-SWsFwg"),
         
         // Mindful Yoga 1
         Practice(title: "Mindful Yoga 1",
