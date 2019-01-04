@@ -28,6 +28,9 @@
 		D13F64B021C5A028000029E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13F64AF21C5A028000029E9 /* Assets.xcassets */; };
 		D13F64B321C5A028000029E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13F64B121C5A028000029E9 /* LaunchScreen.storyboard */; };
 		D13F64BE21C6B3E8000029E9 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F64BD21C6B3E8000029E9 /* CoreData.swift */; };
+		D1415BC921DEFEBA00908F89 /* ResourcesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1415BC821DEFEBA00908F89 /* ResourcesCollectionViewController.swift */; };
+		D1415BCB21DEFF6800908F89 /* ResourcesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1415BCA21DEFF6800908F89 /* ResourcesCollectionViewCell.swift */; };
+		D1415BCD21DF159100908F89 /* ResourcesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1415BCC21DF159100908F89 /* ResourcesCollectionViewCell.xib */; };
 		D178E8C121CAF1020060B038 /* WeekTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D178E8C021CAF1020060B038 /* WeekTableViewController.swift */; };
 		D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D178E8C221CAF2990060B038 /* WeekTableViewCell.swift */; };
 		D178E8C521CAF4890060B038 /* WeekDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D178E8C421CAF4890060B038 /* WeekDetailViewController.swift */; };
@@ -40,7 +43,6 @@
 		D1A8A48A21DD790B00161B7A /* PracticesCollectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8A48921DD790B00161B7A /* PracticesCollectionViewController.storyboard */; };
 		D1A8A48C21DD796500161B7A /* JournalTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8A48B21DD796500161B7A /* JournalTableViewController.storyboard */; };
 		D1A8A48E21DD79BF00161B7A /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A8A48D21DD79BF00161B7A /* JournalTableViewController.swift */; };
-		D1A8A49121DD7AEB00161B7A /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A8A49021DD7AEB00161B7A /* ResourcesViewController.swift */; };
 		D1A8A49321DD7B1400161B7A /* ResourcesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8A49221DD7B1400161B7A /* ResourcesViewController.storyboard */; };
 		D1A8A49621DD7BFD00161B7A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A8A49521DD7BFD00161B7A /* SettingsViewController.swift */; };
 		D1A8A49821DD7C1000161B7A /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A8A49721DD7C1000161B7A /* SettingsViewController.storyboard */; };
@@ -81,6 +83,9 @@
 		D13F64B221C5A028000029E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D13F64B421C5A028000029E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D13F64BD21C6B3E8000029E9 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		D1415BC821DEFEBA00908F89 /* ResourcesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesCollectionViewController.swift; sourceTree = "<group>"; };
+		D1415BCA21DEFF6800908F89 /* ResourcesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesCollectionViewCell.swift; sourceTree = "<group>"; };
+		D1415BCC21DF159100908F89 /* ResourcesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResourcesCollectionViewCell.xib; sourceTree = "<group>"; };
 		D178E8C021CAF1020060B038 /* WeekTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewController.swift; sourceTree = "<group>"; };
 		D178E8C221CAF2990060B038 /* WeekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewCell.swift; sourceTree = "<group>"; };
 		D178E8C421CAF4890060B038 /* WeekDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDetailViewController.swift; sourceTree = "<group>"; };
@@ -93,7 +98,6 @@
 		D1A8A48921DD790B00161B7A /* PracticesCollectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PracticesCollectionViewController.storyboard; sourceTree = "<group>"; };
 		D1A8A48B21DD796500161B7A /* JournalTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JournalTableViewController.storyboard; sourceTree = "<group>"; };
 		D1A8A48D21DD79BF00161B7A /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
-		D1A8A49021DD7AEB00161B7A /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		D1A8A49221DD7B1400161B7A /* ResourcesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResourcesViewController.storyboard; sourceTree = "<group>"; };
 		D1A8A49521DD7BFD00161B7A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D1A8A49721DD7C1000161B7A /* SettingsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
@@ -275,7 +279,9 @@
 		D1A8A48F21DD7A8800161B7A /* ResourcesViewControlller */ = {
 			isa = PBXGroup;
 			children = (
-				D1A8A49021DD7AEB00161B7A /* ResourcesViewController.swift */,
+				D1415BC821DEFEBA00908F89 /* ResourcesCollectionViewController.swift */,
+				D1415BCA21DEFF6800908F89 /* ResourcesCollectionViewCell.swift */,
+				D1415BCC21DF159100908F89 /* ResourcesCollectionViewCell.xib */,
 				D1A8A49221DD7B1400161B7A /* ResourcesViewController.storyboard */,
 			);
 			path = ResourcesViewControlller;
@@ -357,6 +363,7 @@
 			files = (
 				D11F89C621DE8E3100E79725 /* JournalEntryViewController.storyboard in Resources */,
 				D1A8A49321DD7B1400161B7A /* ResourcesViewController.storyboard in Resources */,
+				D1415BCD21DF159100908F89 /* ResourcesCollectionViewCell.xib in Resources */,
 				D1A8A48621DD770C00161B7A /* WeekDetailViewController.storyboard in Resources */,
 				D1A8A49821DD7C1000161B7A /* SettingsViewController.storyboard in Resources */,
 				D11F89D521DECC9700E79725 /* PracticesCollectionViewCell.xib in Resources */,
@@ -378,12 +385,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1415BC921DEFEBA00908F89 /* ResourcesCollectionViewController.swift in Sources */,
 				D1A874DE21CF42A200434BEB /* WeekOutlineTableViewDelegate.swift in Sources */,
 				96A883CB21DD6C370044F164 /* TabBarController.swift in Sources */,
 				D11F89C121DE8E1C00E79725 /* JournalOutlineTableView.swift in Sources */,
 				EBDFE40821DEA53300A8C3D6 /* InformalTableWeek3+Convenience.swift in Sources */,
 				EBDFE40421DEA4FA00A8C3D6 /* InformalTableWeek1+Convenience.swift in Sources */,
-				D1A8A49121DD7AEB00161B7A /* ResourcesViewController.swift in Sources */,
+				D1415BCB21DEFF6800908F89 /* ResourcesCollectionViewCell.swift in Sources */,
 				EBDFE41221DEA64D00A8C3D6 /* MidwaySelfAssessment+Convenience.swift in Sources */,
 				EBDFE40621DEA52700A8C3D6 /* InformalTableWeek2+Convenience.swift in Sources */,
 				D178E8C321CAF2990060B038 /* WeekTableViewCell.swift in Sources */,

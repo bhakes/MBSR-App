@@ -74,6 +74,7 @@ class MSBRContent {
             "publisher": "Dave Potter",
             "url": "https://www.youtube.com/watch?v=_CZEEYMXr8Q&index=4&list=PLbiVpU59JkVbNfFyAG4SrC8NGnC0-D4jg",
             "type" : "video",
+            "image" : "raisin",
             "viewed": 0
         ],
         [
@@ -82,6 +83,7 @@ class MSBRContent {
             "author": "Jon Kabat-Zinn",
             "url": "https://palousemindfulness.com/docs/bodyscan.pdf",
             "type" : "article",
+            "image" : "bodyscan",
             "viewed": 0
         ],
         [
@@ -90,6 +92,7 @@ class MSBRContent {
             "author": "Jon Kabat-Zinn",
             "url": "https://palousemindfulness.com/docs/sittingmeditation.pdf",
             "type" : "article",
+            "image" : "sittingmeditation",
             "viewed": 0
         ],
         [
@@ -98,6 +101,7 @@ class MSBRContent {
             "publisher": "Lynn Rossy",
             "url": "https://www.youtube.com/watch?v=Teo0f1ab1PY&index=3&list=PLbiVpU59JkVaFMGi0A8Im_hfSh-SWsFwg",
             "type" : "video",
+            "image" : "yoga1",
             "viewed": 0
         ],
         [
@@ -106,8 +110,91 @@ class MSBRContent {
             "publisher": "Lynn Rossy",
             "url": "https://www.youtube.com/watch?v=gmdUOia58rY&index=4&list=PLbiVpU59JkVaFMGi0A8Im_hfSh-SWsFwg",
             "type" : "video",
+            "image" : "yoga2",
+            "viewed": 0
+        ],
+        [
+            "title": "Turning Towards...(Physical)",
+            "length": 23,
+            "publisher": "Palouse Mindfulness",
+            "url": "https://www.youtube.com/watch?v=qMhkN-yVfQc",
+            "type" : "video",
+            "image" : "turningtowards",
+            "viewed": 0
+        ],
+        [
+            "title": "Turning Towards...(Emotions)",
+            "length": 24,
+            "publisher": "Palouse Mindfulness",
+            "url": "https://www.youtube.com/watch?v=AP8Pwvkww24",
+            "type" : "video",
+            "image" : "turningtowards",
+            "viewed": 0
+        ],
+        [
+            "title": "Mountain Meditation",
+            "length": 20,
+            "publisher": "Palouse Mindfulness",
+            "url": "https://www.youtube.com/watch?v=9SwnJ6kqpa0&index=6&list=PLbiVpU59JkVaFMGi0A8Im_hfSh-SWsFwg",
+            "type" : "video",
+            "image" : "mountainmeditation",
+            "viewed": 0
+        ],
+        [
+            "title": "Lake Meditation",
+            "length": 20,
+            "publisher": "Palouse Mindfulness",
+            "url": "https://www.youtube.com/watch?v=3DoIOHb0unE&index=7&list=PLbiVpU59JkVaFMGi0A8Im_hfSh-SWsFwg",
+            "type" : "video",
+            "image" : "lakemeditation",
+            "viewed": 0
+        ],
+        [
+            "title": "Soften, Soothe, Allow Meditation",
+            "length": 15,
+            "publisher": "Palouse Mindfulness",
+            "url": "https://palousemindfulness.com/disks/soften-soothe-allow.mp3",
+            "type" : "audio",
+            "image" : "turningtowards",
+            "viewed": 0
+        ],
+        [
+            "title": "RAIN Meditation",
+            "length": 15,
+            "publisher": "Palouse Mindfulness",
+            "url": "https://palousemindfulness.com/disks/soften-soothe-allow.mp3",
+            "type" : "audio",
+            "image" : "rain",
+            "viewed": 0
+        ],
+        [
+            "title": "30-Minute Silent Meditation",
+            "length": 30,
+            "publisher": "Palouse Mindfulness",
+            "url": "https://palousemindfulness.com/meditations/silent30min.html",
+            "type" : "audio",
+            "image" : "silent",
+            "viewed": 0
+        ],
+        [
+            "title": "20-Minute Silent Meditation",
+            "length": 20,
+            "publisher": "Palouse Mindfulness",
+            "url": "https://palousemindfulness.com/meditations/silent20min.html",
+            "type" : "audio",
+            "image" : "silent",
+            "viewed": 0
+        ],
+        [
+            "title": "15-Minute Silent Meditation",
+            "length": 15,
+            "publisher": "Palouse Mindfulness",
+            "url": "https://palousemindfulness.com/meditations/silent15min.html",
+            "type" : "audio",
+            "image" : "silent",
             "viewed": 0
         ]
+        
         ]
     
     var content =

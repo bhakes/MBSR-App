@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="d8I-Da-ugp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="luQ-Ao-5D9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Resources-->
-        <scene sceneID="a6F-bf-Jrx">
+        <!--Resources Collection View Controller-->
+        <scene sceneID="5Hz-Jn-f6S">
             <objects>
-                <viewController storyboardIdentifier="ResourcesViewControllerSB" id="d8I-Da-ugp" customClass="ResourcesViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WOi-3x-UgW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                <collectionViewController storyboardIdentifier="ResourcesViewControllerSB" id="luQ-Ao-5D9" customClass="ResourcesCollectionViewController" customModule="MBSR_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="GEK-K1-dIx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="g7K-hC-M75"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Resources" largeTitleDisplayMode="always" id="HU2-55-LWK">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="Settings" id="nCJ-p2-UOt">
-                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="-6" maxY="0.0"/>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="O8Z-d0-MBx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FKc-9Q-QM6">
+                            <size key="itemSize" width="125" height="125"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="resourcesCell" id="Db0-po-lnu" customClass="ResourcesCollectionViewCell" customModule="MBSR_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="luQ-Ao-5D9" id="bco-Ct-EgO"/>
+                            <outlet property="delegate" destination="luQ-Ao-5D9" id="2ZT-kS-FhA"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dPr-fV-qmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3998" y="959"/>
-        </scene>
-        <!--SettingsViewControllerSB-->
-        <scene sceneID="9lH-LG-gRi">
-            <objects>
-                <viewControllerPlaceholder storyboardName="SettingsViewController" referencedIdentifier="SettingsViewControllerSB" id="79z-8y-uGV" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EZA-8k-lxk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4595" y="917"/>
+            <point key="canvasLocation" x="77.599999999999994" y="27.436281859070466"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Settings" width="38" height="32"/>
-    </resources>
 </document>
