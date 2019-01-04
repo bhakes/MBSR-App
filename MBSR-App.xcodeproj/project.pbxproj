@@ -18,6 +18,8 @@
 		D11F89C621DE8E3100E79725 /* JournalEntryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11F89C421DE8E3100E79725 /* JournalEntryViewController.storyboard */; };
 		D11F89C721DE8E3100E79725 /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89C521DE8E3100E79725 /* JournalEntryViewController.swift */; };
 		D11F89C921DE8E5E00E79725 /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89C821DE8E5E00E79725 /* JournalTableViewCell.swift */; };
+		D11F89D421DECC9700E79725 /* PracticesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F89D221DECC9700E79725 /* PracticesCollectionViewCell.swift */; };
+		D11F89D521DECC9700E79725 /* PracticesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D11F89D321DECC9700E79725 /* PracticesCollectionViewCell.xib */; };
 		D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */; };
 		D138CC9221DAB1A200CA4190 /* PracticesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */; };
 		D13D595021CAE9B7004FBEC1 /* MBSR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13D594F21CAE9B7004FBEC1 /* MBSR.swift */; };
@@ -67,6 +69,8 @@
 		D11F89C421DE8E3100E79725 /* JournalEntryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JournalEntryViewController.storyboard; sourceTree = "<group>"; };
 		D11F89C521DE8E3100E79725 /* JournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
 		D11F89C821DE8E5E00E79725 /* JournalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		D11F89D221DECC9700E79725 /* PracticesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesCollectionViewCell.swift; sourceTree = "<group>"; };
+		D11F89D321DECC9700E79725 /* PracticesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PracticesCollectionViewCell.xib; sourceTree = "<group>"; };
 		D13721A321D19CB300E38A88 /* WeekOutlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOutlineTableViewCell.swift; sourceTree = "<group>"; };
 		D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticesCollectionViewController.swift; sourceTree = "<group>"; };
 		D13D594F21CAE9B7004FBEC1 /* MBSR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBSR.swift; sourceTree = "<group>"; };
@@ -252,6 +256,8 @@
 			children = (
 				D138CC9121DAB1A200CA4190 /* PracticesCollectionViewController.swift */,
 				D1A8A48921DD790B00161B7A /* PracticesCollectionViewController.storyboard */,
+				D11F89D221DECC9700E79725 /* PracticesCollectionViewCell.swift */,
+				D11F89D321DECC9700E79725 /* PracticesCollectionViewCell.xib */,
 			);
 			path = PracticesCollectionViewController;
 			sourceTree = "<group>";
@@ -353,6 +359,7 @@
 				D1A8A49321DD7B1400161B7A /* ResourcesViewController.storyboard in Resources */,
 				D1A8A48621DD770C00161B7A /* WeekDetailViewController.storyboard in Resources */,
 				D1A8A49821DD7C1000161B7A /* SettingsViewController.storyboard in Resources */,
+				D11F89D521DECC9700E79725 /* PracticesCollectionViewCell.xib in Resources */,
 				D13F64B321C5A028000029E9 /* LaunchScreen.storyboard in Resources */,
 				D13F64B021C5A028000029E9 /* Assets.xcassets in Resources */,
 				D13F64AB21C5A027000029E9 /* Main.storyboard in Resources */,
@@ -402,6 +409,7 @@
 				D1A8A49621DD7BFD00161B7A /* SettingsViewController.swift in Sources */,
 				D13F64BE21C6B3E8000029E9 /* CoreData.swift in Sources */,
 				D178E8C121CAF1020060B038 /* WeekTableViewController.swift in Sources */,
+				D11F89D421DECC9700E79725 /* PracticesCollectionViewCell.swift in Sources */,
 				EBDFE3FE21DEA47A00A8C3D6 /* CourseSummary+Convenience.swift in Sources */,
 				D13721A421D19CB300E38A88 /* WeekOutlineTableViewCell.swift in Sources */,
 				96A883CE21DD6F7D0044F164 /* UIImage.swift in Sources */,
